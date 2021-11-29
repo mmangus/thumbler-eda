@@ -1,4 +1,4 @@
-update=11/25/2021 21:50:05
+update=11/27/2021 23:40:26
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=C:/Users/Michael/Documents/KiCad Projects/strickland_layout.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
