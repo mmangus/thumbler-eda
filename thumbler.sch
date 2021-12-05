@@ -2718,8 +2718,8 @@ U 1 1 64D899F3
 P 1550 4250
 F 0 "J5" H 1607 4717 50  0000 C CNN
 F 1 "USB_B_Micro" H 1607 4626 50  0000 C CNN
-F 2 "" H 1700 4200 50  0001 C CNN
-F 3 "~" H 1700 4200 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_HRO_U-F-M5SS-W-1" H 1700 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-U-F-M5SS-W-1_C145783.pdf" H 1700 4200 50  0001 C CNN
 	1    1550 4250
 	1    0    0    -1  
 $EndComp
@@ -3185,17 +3185,6 @@ Wire Wire Line
 	18750 4400 18750 4450
 Wire Wire Line
 	21150 4050 21500 4050
-$Comp
-L power:+5V #PWR0115
-U 1 1 62364EE2
-P 16900 3950
-F 0 "#PWR0115" H 16900 3800 50  0001 C CNN
-F 1 "+5V" H 16915 4123 50  0000 C CNN
-F 2 "" H 16900 3950 50  0001 C CNN
-F 3 "" H 16900 3950 50  0001 C CNN
-	1    16900 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	21500 4450 21500 4350
 $Comp
@@ -3383,39 +3372,8 @@ Text GLabel 3350 7850 2    50   Input ~ 0
 L_COL8
 Text GLabel 12550 10400 0    50   Input ~ 0
 R_PTR_Z
-$Comp
-L power:+3V3 #PWR0103
-U 1 1 6AFCE774
-P 12650 10100
-F 0 "#PWR0103" H 12650 9950 50  0001 C CNN
-F 1 "+3V3" H 12592 10137 50  0000 R CNN
-F 2 "" H 12650 10100 50  0001 C CNN
-F 3 "" H 12650 10100 50  0001 C CNN
-	1    12650 10100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12400 10650 12750 10650
-Wire Wire Line
-	12650 10400 12750 10400
-Connection ~ 12650 10400
-Wire Wire Line
-	12550 10400 12650 10400
-$Comp
-L Device:R_Small_US R16
-U 1 1 662F7E0A
-P 12650 10250
-F 0 "R16" H 12717 10204 50  0000 L CNN
-F 1 "10K" H 12717 10295 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 12650 10250 50  0001 C CNN
-F 3 "~" H 12650 10250 50  0001 C CNN
-	1    12650 10250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12650 10400 12650 10350
-Wire Wire Line
-	12650 10150 12650 10100
 Wire Wire Line
 	12750 10500 12700 10500
 $Comp
@@ -3933,7 +3891,7 @@ L_TX
 Text Notes 2350 14100 2    79   ~ 0
 USART
 Text Notes 10100 6750 0    50   ~ 0
-Current limiting resistors \nprotect against software \nerrors (for instance, if you\naccidentally made a row\npin into a column, it could \nbe set to low output and \nthen scanned by a column \npin pulling high). If you are \nbrave, 0R links can be used \ninstead. 470R limits to 7mA, \nwithin STM32 rated GPIO \ncapacity.
+Current limiting resistors \nprotect against software \nerrors (for instance, if you\naccidentally made a row\npin into a column, it could \nbe set to high output and \nthen scanned by a column \npin pulling low). If you are \nbrave, 0R links can be used \ninstead. 470R limits to 7mA, \nwithin STM32 rated GPIO \ncapacity.
 Wire Wire Line
 	6650 12950 6700 12950
 Wire Wire Line
@@ -5115,42 +5073,42 @@ Wire Wire Line
 	20150 7750 20250 7750
 Wire Wire Line
 	20150 7850 20250 7850
-Text Notes 17750 3750 0    50   ~ 0
+Text Notes 17800 3750 0    50   ~ 0
 NB: Right side USB for DFU firmware updates only! Generally DIN5 link will provide +5V.
 Wire Wire Line
-	1850 4250 1950 4250
+	1850 4250 1900 4250
 Wire Wire Line
-	1850 4350 1950 4350
-Text GLabel 2200 4350 2    50   Input ~ 0
+	1850 4350 1900 4350
+Text GLabel 2150 4350 2    50   Input ~ 0
 L_USB_D-
-Text GLabel 2200 4250 2    50   Input ~ 0
+Text GLabel 2150 4250 2    50   Input ~ 0
 L_USB_D+
 $Comp
 L Device:R_Small_US R3
 U 1 1 61A8C8AB
-P 2050 4250
-F 0 "R3" V 1845 4250 50  0000 C CNN
-F 1 "22R" V 1936 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2050 4250 50  0001 C CNN
-F 3 "~" H 2050 4250 50  0001 C CNN
-	1    2050 4250
+P 2000 4250
+F 0 "R3" V 1795 4250 50  0000 C CNN
+F 1 "22R" V 1886 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2000 4250 50  0001 C CNN
+F 3 "~" H 2000 4250 50  0001 C CNN
+	1    2000 4250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R5
 U 1 1 61A8F08A
-P 2050 4350
-F 0 "R5" V 1937 4350 50  0000 C CNN
-F 1 "22R" V 1846 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2050 4350 50  0001 C CNN
-F 3 "~" H 2050 4350 50  0001 C CNN
-	1    2050 4350
+P 2000 4350
+F 0 "R5" V 1887 4350 50  0000 C CNN
+F 1 "22R" V 1796 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2000 4350 50  0001 C CNN
+F 3 "~" H 2000 4350 50  0001 C CNN
+	1    2000 4350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2150 4350 2200 4350
+	2100 4350 2150 4350
 Wire Wire Line
-	2150 4250 2200 4250
+	2100 4250 2150 4250
 Connection ~ 4200 7700
 Connection ~ 4200 8200
 Connection ~ 19100 7700
@@ -5159,8 +5117,8 @@ Text GLabel 6800 13150 2    50   Input ~ 0
 L_OPT2
 Text GLabel 6800 13050 2    50   Input ~ 0
 L_OPT1
-Text Notes 9600 5050 0    50   ~ 0
-Not sure if tying reset together is a good \nidea or not. Solder jumper in case it's a \nbad idea.
+Text Notes 9600 5000 0    50   ~ 0
+Not sure if tying reset together is needed.\nSolder jumper in case it's a bad idea.
 NoConn ~ 16850 4450
 $Comp
 L Connector:USB_B_Micro J3
@@ -5168,8 +5126,8 @@ U 1 1 62364EC3
 P 16550 4250
 F 0 "J3" H 16607 4717 50  0000 C CNN
 F 1 "USB_B_Micro" H 16607 4626 50  0000 C CNN
-F 2 "" H 16700 4200 50  0001 C CNN
-F 3 "~" H 16700 4200 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_HRO_U-F-M5SS-W-1" H 16700 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-U-F-M5SS-W-1_C145783.pdf" H 16700 4200 50  0001 C CNN
 	1    16550 4250
 	1    0    0    -1  
 $EndComp
@@ -5194,49 +5152,16 @@ Wire Notes Line
 Wire Notes Line
 	16300 4950 16300 3650
 $Comp
-L Device:D_Schottky D75
-U 1 1 67525FF1
-P 17500 4050
-F 0 "D75" H 17500 3833 50  0000 C CNN
-F 1 "B5819W" H 17500 3924 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 17500 4050 50  0001 C CNN
-F 3 "~" H 17500 4050 50  0001 C CNN
-	1    17500 4050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	17650 4050 17900 4050
-$Comp
-L Device:D_Schottky D74
-U 1 1 6772F94A
-P 2550 4050
-F 0 "D74" H 2550 3833 50  0000 C CNN
-F 1 "B5819W" H 2550 3924 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2550 4050 50  0001 C CNN
-F 3 "~" H 2550 4050 50  0001 C CNN
-	1    2550 4050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1850 4050 1950 4050
-Wire Wire Line
-	2700 4050 2950 4050
-$Comp
 L power:+5V #PWR0109
 U 1 1 6BB41C00
-P 1950 3900
-F 0 "#PWR0109" H 1950 3750 50  0001 C CNN
-F 1 "+5V" H 1965 4073 50  0000 C CNN
-F 2 "" H 1950 3900 50  0001 C CNN
-F 3 "" H 1950 3900 50  0001 C CNN
-	1    1950 3900
+P 2700 3900
+F 0 "#PWR0109" H 2700 3750 50  0001 C CNN
+F 1 "+5V" H 2715 4073 50  0000 C CNN
+F 2 "" H 2700 3900 50  0001 C CNN
+F 3 "" H 2700 3900 50  0001 C CNN
+	1    2700 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 3900 1950 4050
-Connection ~ 1950 4050
-Wire Wire Line
-	16850 4050 16900 4050
 Wire Wire Line
 	17100 4350 17150 4350
 Wire Wire Line
@@ -5268,38 +5193,16 @@ F 3 "~" H 17000 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Polyfuse_Small F2
-U 1 1 683F3464
-P 17150 4050
-F 0 "F2" V 16945 4050 50  0000 C CNN
-F 1 "350mA" V 17036 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 17200 3850 50  0001 L CNN
-F 3 "~" H 17150 4050 50  0001 C CNN
-	1    17150 4050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	17250 4050 17350 4050
-Wire Wire Line
-	16900 3950 16900 4050
-Connection ~ 16900 4050
-Wire Wire Line
-	16900 4050 17050 4050
-Wire Wire Line
-	1950 4050 2100 4050
-$Comp
 L Device:Polyfuse_Small F1
 U 1 1 6837D09B
-P 2200 4050
-F 0 "F1" V 2405 4050 50  0000 C CNN
-F 1 "350mA" V 2314 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 2250 3850 50  0001 L CNN
-F 3 "~" H 2200 4050 50  0001 C CNN
-	1    2200 4050
+P 2150 4050
+F 0 "F1" V 2355 4050 50  0000 C CNN
+F 1 "350mA" V 2264 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 2200 3850 50  0001 L CNN
+F 3 "~" H 2150 4050 50  0001 C CNN
+	1    2150 4050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2400 4050 2300 4050
 Wire Wire Line
 	10800 4400 10700 4400
 Wire Wire Line
@@ -5347,4 +5250,113 @@ Text GLabel 13300 4100 2    50   Input ~ 0
 ~RST
 Wire Wire Line
 	12900 4100 13300 4100
+$Comp
+L Device:D_Schottky D74
+U 1 1 6772F94A
+P 2450 4050
+F 0 "D74" H 2450 3833 50  0000 C CNN
+F 1 "B5819W" H 2450 3924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2450 4050 50  0001 C CNN
+F 3 "~" H 2450 4050 50  0001 C CNN
+	1    2450 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	17600 4050 17650 4050
+Wire Wire Line
+	1850 4050 2050 4050
+Wire Wire Line
+	17650 3900 17650 4050
+$Comp
+L Device:D_Schottky D75
+U 1 1 6A1F85DF
+P 17450 4050
+F 0 "D75" H 17450 3833 50  0000 C CNN
+F 1 "B5819W" H 17450 3924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 17450 4050 50  0001 C CNN
+F 3 "~" H 17450 4050 50  0001 C CNN
+	1    17450 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16850 4050 17050 4050
+$Comp
+L power:+5V #PWR0115
+U 1 1 6A33093F
+P 17650 3900
+F 0 "#PWR0115" H 17650 3750 50  0001 C CNN
+F 1 "+5V" H 17665 4073 50  0000 C CNN
+F 2 "" H 17650 3900 50  0001 C CNN
+F 3 "" H 17650 3900 50  0001 C CNN
+	1    17650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3900 2700 4050
+$Comp
+L Device:Polyfuse_Small F2
+U 1 1 6A1F85D9
+P 17150 4050
+F 0 "F2" V 17355 4050 50  0000 C CNN
+F 1 "350mA" V 17264 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 17200 3850 50  0001 L CNN
+F 3 "~" H 17150 4050 50  0001 C CNN
+	1    17150 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17250 4050 17300 4050
+Connection ~ 17650 4050
+Wire Wire Line
+	17650 4050 17750 4050
+Wire Wire Line
+	2250 4050 2300 4050
+Connection ~ 2700 4050
+Wire Wire Line
+	2700 4050 2600 4050
+$Comp
+L Connector:TestPoint TP38
+U 1 1 6ABDD452
+P 17750 4050
+F 0 "TP38" H 17692 4076 50  0000 R CNN
+F 1 "TestPoint" H 17692 4167 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 17950 4050 50  0001 C CNN
+F 3 "~" H 17950 4050 50  0001 C CNN
+	1    17750 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 4050 2950 4050
+Wire Wire Line
+	2700 4050 2850 4050
+Connection ~ 2850 4050
+$Comp
+L Connector:TestPoint TP37
+U 1 1 6ABDA1C2
+P 2850 4050
+F 0 "TP37" H 2792 4076 50  0000 R CNN
+F 1 "TestPoint" H 2792 4167 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3050 4050 50  0001 C CNN
+F 3 "~" H 3050 4050 50  0001 C CNN
+	1    2850 4050
+	-1   0    0    1   
+$EndComp
+Connection ~ 17750 4050
+Wire Wire Line
+	17750 4050 17900 4050
+Wire Wire Line
+	12550 10400 12750 10400
+NoConn ~ 3250 7750
+NoConn ~ 1950 7150
+NoConn ~ 1950 7050
+NoConn ~ 1950 6950
+NoConn ~ 1950 6750
+NoConn ~ 1950 6650
+NoConn ~ 21550 7750
+NoConn ~ 20250 8150
+NoConn ~ 20250 7150
+NoConn ~ 20250 7050
+NoConn ~ 20250 6950
+NoConn ~ 20250 6750
+NoConn ~ 20250 6650
 $EndSCHEMATC
