@@ -26,10 +26,10 @@ Wire Notes Line
 Wire Notes Line
 	11200 5550 4050 5550
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S13
+L kailh_hotplug_mx_plate:Kailh_Hotplug S20
 U 1 1 619E0BC7
 P 8100 8400
-F 0 "S13" H 8100 8650 50  0000 C CNN
+F 0 "S20" H 8100 8650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 8100 8350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 8150 8750 50  0001 C CNN
 F 3 "" H 8100 8650 50  0001 C CNN
@@ -37,21 +37,10 @@ F 3 "" H 8100 8650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D30
-U 1 1 61A9CE11
-P 4750 7200
-F 0 "D30" H 4750 7300 50  0000 C CNN
-F 1 "1N4148" H 4750 7100 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 7025 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4750 7200 50  0001 C CNN
-	1    4750 7200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D31
+L Diode:1N4148 D3
 U 1 1 61A9B2A4
 P 4750 8700
-F 0 "D31" H 4750 8800 50  0000 C CNN
+F 0 "D3" H 4750 8800 50  0000 C CNN
 F 1 "1N4148" H 4750 8600 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 8525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4750 8700 50  0001 C CNN
@@ -59,10 +48,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4750 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D27
+L Diode:1N4148 D8
 U 1 1 61A99B60
 P 5550 8700
-F 0 "D27" H 5550 8800 50  0000 C CNN
+F 0 "D8" H 5550 8800 50  0000 C CNN
 F 1 "1N4148" H 5550 8600 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 8525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5550 8700 50  0001 C CNN
@@ -70,10 +59,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5550 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D29
+L Diode:1N4148 D5
 U 1 1 61A984AF
 P 5150 8200
-F 0 "D29" H 5150 8300 50  0000 C CNN
+F 0 "D5" H 5150 8300 50  0000 C CNN
 F 1 "1N4148" H 5150 8100 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 8025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5150 8200 50  0001 C CNN
@@ -81,10 +70,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5150 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D28
+L Diode:1N4148 D4
 U 1 1 61A976F7
 P 5150 7700
-F 0 "D28" H 5150 7800 50  0000 C CNN
+F 0 "D4" H 5150 7800 50  0000 C CNN
 F 1 "1N4148" H 5150 7600 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 7525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5150 7700 50  0001 C CNN
@@ -92,10 +81,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5150 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D26
+L Diode:1N4148 D7
 U 1 1 61A966C9
 P 5550 7200
-F 0 "D26" H 5550 7300 50  0000 C CNN
+F 0 "D7" H 5550 7300 50  0000 C CNN
 F 1 "1N4148" H 5550 7100 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 7025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5550 7200 50  0001 C CNN
@@ -103,10 +92,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5550 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D25
+L Diode:1N4148 D6
 U 1 1 61A95BBC
 P 5550 6650
-F 0 "D25" H 5550 6750 50  0000 C CNN
+F 0 "D6" H 5550 6750 50  0000 C CNN
 F 1 "1N4148" H 5550 6550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 6475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5550 6650 50  0001 C CNN
@@ -114,10 +103,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5550 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D20
+L Diode:1N4148 D9
 U 1 1 61A93EE0
 P 6400 6500
-F 0 "D20" H 6400 6600 50  0000 C CNN
+F 0 "D9" H 6400 6600 50  0000 C CNN
 F 1 "1N4148" H 6400 6400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 6325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 6500 50  0001 C CNN
@@ -125,10 +114,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D21
+L Diode:1N4148 D10
 U 1 1 61A932B3
 P 6400 7050
-F 0 "D21" H 6400 7150 50  0000 C CNN
+F 0 "D10" H 6400 7150 50  0000 C CNN
 F 1 "1N4148" H 6400 6950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 6875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 7050 50  0001 C CNN
@@ -136,10 +125,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D22
+L Diode:1N4148 D11
 U 1 1 61A9209E
 P 6400 7550
-F 0 "D22" H 6400 7650 50  0000 C CNN
+F 0 "D11" H 6400 7650 50  0000 C CNN
 F 1 "1N4148" H 6400 7450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 7375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 7550 50  0001 C CNN
@@ -147,10 +136,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D23
+L Diode:1N4148 D12
 U 1 1 61A91282
 P 6400 8050
-F 0 "D23" H 6400 8150 50  0000 C CNN
+F 0 "D12" H 6400 8150 50  0000 C CNN
 F 1 "1N4148" H 6400 7950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 7875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 8050 50  0001 C CNN
@@ -158,10 +147,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D24
+L Diode:1N4148 D13
 U 1 1 61A90857
 P 6400 8550
-F 0 "D24" H 6400 8650 50  0000 C CNN
+F 0 "D13" H 6400 8650 50  0000 C CNN
 F 1 "1N4148" H 6400 8450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 8375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 8550 50  0001 C CNN
@@ -169,10 +158,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D19
+L Diode:1N4148 D18
 U 1 1 61A8FCAD
 P 7450 8550
-F 0 "D19" H 7450 8650 50  0000 C CNN
+F 0 "D18" H 7450 8650 50  0000 C CNN
 F 1 "1N4148" H 7450 8450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 8375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 8550 50  0001 C CNN
@@ -180,10 +169,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D18
+L Diode:1N4148 D17
 U 1 1 61A8EF5F
 P 7450 8050
-F 0 "D18" H 7450 8150 50  0000 C CNN
+F 0 "D17" H 7450 8150 50  0000 C CNN
 F 1 "1N4148" H 7450 7950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 7875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 8050 50  0001 C CNN
@@ -191,10 +180,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D17
+L Diode:1N4148 D16
 U 1 1 61A8E2F4
 P 7450 7550
-F 0 "D17" H 7450 7650 50  0000 C CNN
+F 0 "D16" H 7450 7650 50  0000 C CNN
 F 1 "1N4148" H 7450 7450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 7375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 7550 50  0001 C CNN
@@ -202,10 +191,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D16
+L Diode:1N4148 D15
 U 1 1 61A8D472
 P 7450 7050
-F 0 "D16" H 7450 7150 50  0000 C CNN
+F 0 "D15" H 7450 7150 50  0000 C CNN
 F 1 "1N4148" H 7450 6950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 6875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 7050 50  0001 C CNN
@@ -213,10 +202,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D15
+L Diode:1N4148 D14
 U 1 1 61A8C789
 P 7450 6500
-F 0 "D15" H 7450 6600 50  0000 C CNN
+F 0 "D14" H 7450 6600 50  0000 C CNN
 F 1 "1N4148" H 7450 6400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 6325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 6500 50  0001 C CNN
@@ -224,10 +213,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D10
+L Diode:1N4148 D19
 U 1 1 61A8BC70
 P 8450 6750
-F 0 "D10" H 8450 6850 50  0000 C CNN
+F 0 "D19" H 8450 6850 50  0000 C CNN
 F 1 "1N4148" H 8450 6650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8450 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 6750 50  0001 C CNN
@@ -235,10 +224,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D11
+L Diode:1N4148 D20
 U 1 1 61A8B399
 P 8450 7300
-F 0 "D11" H 8450 7400 50  0000 C CNN
+F 0 "D20" H 8450 7400 50  0000 C CNN
 F 1 "1N4148" H 8450 7200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8450 7125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 7300 50  0001 C CNN
@@ -246,10 +235,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D12
+L Diode:1N4148 D21
 U 1 1 61A8A7FF
 P 8450 7800
-F 0 "D12" H 8450 7900 50  0000 C CNN
+F 0 "D21" H 8450 7900 50  0000 C CNN
 F 1 "1N4148" H 8450 7700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8450 7625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 7800 50  0001 C CNN
@@ -257,10 +246,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D13
+L Diode:1N4148 D22
 U 1 1 61A88C33
 P 8450 8300
-F 0 "D13" H 8450 8400 50  0000 C CNN
+F 0 "D22" H 8450 8400 50  0000 C CNN
 F 1 "1N4148" H 8450 8200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8450 8125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 8300 50  0001 C CNN
@@ -268,10 +257,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D14
+L Diode:1N4148 D23
 U 1 1 61A880F7
 P 8450 8800
-F 0 "D14" H 8450 8900 50  0000 C CNN
+F 0 "D23" H 8450 8900 50  0000 C CNN
 F 1 "1N4148" H 8450 8700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8450 8625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 8800 50  0001 C CNN
@@ -279,10 +268,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D9
+L Diode:1N4148 D28
 U 1 1 61A87518
 P 9350 9150
-F 0 "D9" H 9350 9250 50  0000 C CNN
+F 0 "D28" H 9350 9250 50  0000 C CNN
 F 1 "1N4148" H 9350 9050 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 8975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 9150 50  0001 C CNN
@@ -290,10 +279,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D8
+L Diode:1N4148 D27
 U 1 1 61A867B5
 P 9350 8600
-F 0 "D8" H 9350 8700 50  0000 C CNN
+F 0 "D27" H 9350 8700 50  0000 C CNN
 F 1 "1N4148" H 9350 8500 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 8425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 8600 50  0001 C CNN
@@ -301,10 +290,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D7
+L Diode:1N4148 D26
 U 1 1 61A83E09
 P 9350 8100
-F 0 "D7" H 9350 8200 50  0000 C CNN
+F 0 "D26" H 9350 8200 50  0000 C CNN
 F 1 "1N4148" H 9350 8000 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 7925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 8100 50  0001 C CNN
@@ -312,10 +301,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D6
+L Diode:1N4148 D25
 U 1 1 61A83342
 P 9350 7600
-F 0 "D6" H 9350 7700 50  0000 C CNN
+F 0 "D25" H 9350 7700 50  0000 C CNN
 F 1 "1N4148" H 9350 7500 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 7425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 7600 50  0001 C CNN
@@ -323,10 +312,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D5
+L Diode:1N4148 D24
 U 1 1 61A8264A
 P 9350 7100
-F 0 "D5" H 9350 7200 50  0000 C CNN
+F 0 "D24" H 9350 7200 50  0000 C CNN
 F 1 "1N4148" H 9350 7000 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 6925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 7100 50  0001 C CNN
@@ -334,10 +323,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9350 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D4
+L Diode:1N4148 D35
 U 1 1 61A817D6
 P 10350 9300
-F 0 "D4" H 10350 9400 50  0000 C CNN
+F 0 "D35" H 10350 9400 50  0000 C CNN
 F 1 "1N4148" H 10350 9200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10350 9125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10350 9300 50  0001 C CNN
@@ -345,10 +334,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D3
+L Diode:1N4148 D34
 U 1 1 61A80FDC
 P 10350 8800
-F 0 "D3" H 10350 8900 50  0000 C CNN
+F 0 "D34" H 10350 8900 50  0000 C CNN
 F 1 "1N4148" H 10350 8700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10350 8625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10350 8800 50  0001 C CNN
@@ -356,10 +345,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D2
+L Diode:1N4148 D33
 U 1 1 61A802B4
 P 10350 8300
-F 0 "D2" H 10350 8400 50  0000 C CNN
+F 0 "D33" H 10350 8400 50  0000 C CNN
 F 1 "1N4148" H 10350 8200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10350 8125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10350 8300 50  0001 C CNN
@@ -367,10 +356,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D1
+L Diode:1N4148 D32
 U 1 1 61A79F33
 P 10350 7800
-F 0 "D1" H 10350 7900 50  0000 C CNN
+F 0 "D32" H 10350 7900 50  0000 C CNN
 F 1 "1N4148" H 10350 7700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10350 7625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10350 7800 50  0001 C CNN
@@ -402,10 +391,10 @@ L_ROW2
 Text GLabel 10700 7100 2    50   Input ~ 0
 L_ROW1
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S27
+L kailh_hotplug_mx_plate:Kailh_Hotplug S6
 U 1 1 619F2B81
 P 5200 8800
-F 0 "S27" H 5200 9050 50  0000 C CNN
+F 0 "S6" H 5200 9050 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 5200 8750 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 5250 9150 50  0001 C CNN
 F 3 "" H 5200 9050 50  0001 C CNN
@@ -413,10 +402,10 @@ F 3 "" H 5200 9050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S28
+L kailh_hotplug_mx_plate:Kailh_Hotplug S2
 U 1 1 619F2B75
 P 4800 7800
-F 0 "S28" H 4800 8050 50  0000 C CNN
+F 0 "S2" H 4800 8050 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 4800 7750 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 4850 8150 50  0001 C CNN
 F 3 "" H 4800 8050 50  0001 C CNN
@@ -424,10 +413,10 @@ F 3 "" H 4800 8050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S26
+L kailh_hotplug_mx_plate:Kailh_Hotplug S5
 U 1 1 619F2B6F
 P 5200 7300
-F 0 "S26" H 5200 7550 50  0000 C CNN
+F 0 "S5" H 5200 7550 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 5200 7250 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 5250 7650 50  0001 C CNN
 F 3 "" H 5200 7550 50  0001 C CNN
@@ -435,10 +424,10 @@ F 3 "" H 5200 7550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S25
+L kailh_hotplug_mx_plate:Kailh_Hotplug S4
 U 1 1 619F2B69
 P 5200 6750
-F 0 "S25" H 5200 7000 50  0000 C CNN
+F 0 "S4" H 5200 7000 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 5200 6700 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 5250 7100 50  0001 C CNN
 F 3 "" H 5200 7000 50  0001 C CNN
@@ -446,10 +435,10 @@ F 3 "" H 5200 7000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S24
+L kailh_hotplug_mx_plate:Kailh_Hotplug S11
 U 1 1 619EBEC3
 P 6050 8650
-F 0 "S24" H 6050 8900 50  0000 C CNN
+F 0 "S11" H 6050 8900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 6050 8600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 6100 9000 50  0001 C CNN
 F 3 "" H 6050 8900 50  0001 C CNN
@@ -457,10 +446,10 @@ F 3 "" H 6050 8900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S23
+L kailh_hotplug_mx_plate:Kailh_Hotplug S10
 U 1 1 619EBEBD
 P 6050 8150
-F 0 "S23" H 6050 8400 50  0000 C CNN
+F 0 "S10" H 6050 8400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 6050 8100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 6100 8500 50  0001 C CNN
 F 3 "" H 6050 8400 50  0001 C CNN
@@ -468,10 +457,10 @@ F 3 "" H 6050 8400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S22
+L kailh_hotplug_mx_plate:Kailh_Hotplug S9
 U 1 1 619EBEB7
 P 6050 7650
-F 0 "S22" H 6050 7900 50  0000 C CNN
+F 0 "S9" H 6050 7900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 6050 7600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 6100 8000 50  0001 C CNN
 F 3 "" H 6050 7900 50  0001 C CNN
@@ -479,10 +468,10 @@ F 3 "" H 6050 7900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S21
+L kailh_hotplug_mx_plate:Kailh_Hotplug S8
 U 1 1 619EBEB1
 P 6050 7150
-F 0 "S21" H 6050 7400 50  0000 C CNN
+F 0 "S8" H 6050 7400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 6050 7100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 6100 7500 50  0001 C CNN
 F 3 "" H 6050 7400 50  0001 C CNN
@@ -490,10 +479,10 @@ F 3 "" H 6050 7400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S20
+L kailh_hotplug_mx_plate:Kailh_Hotplug S7
 U 1 1 619EBEAB
 P 6050 6600
-F 0 "S20" H 6050 6850 50  0000 C CNN
+F 0 "S7" H 6050 6850 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 6050 6550 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 6100 6950 50  0001 C CNN
 F 3 "" H 6050 6850 50  0001 C CNN
@@ -501,10 +490,10 @@ F 3 "" H 6050 6850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S31
+L kailh_hotplug_mx_plate:Kailh_Hotplug S1
 U 1 1 619E1B0B
 P 4400 8800
-F 0 "S31" H 4400 9050 50  0000 C CNN
+F 0 "S1" H 4400 9050 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 4400 8750 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 4450 9150 50  0001 C CNN
 F 3 "" H 4400 9050 50  0001 C CNN
@@ -512,10 +501,10 @@ F 3 "" H 4400 9050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S19
+L kailh_hotplug_mx_plate:Kailh_Hotplug S16
 U 1 1 619E1AFF
 P 7100 8650
-F 0 "S19" H 7100 8900 50  0000 C CNN
+F 0 "S16" H 7100 8900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 7100 8600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 7150 9000 50  0001 C CNN
 F 3 "" H 7100 8900 50  0001 C CNN
@@ -523,10 +512,10 @@ F 3 "" H 7100 8900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S14
+L kailh_hotplug_mx_plate:Kailh_Hotplug S21
 U 1 1 619E1AF9
 P 8100 8900
-F 0 "S14" H 8100 9150 50  0000 C CNN
+F 0 "S21" H 8100 9150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 8100 8850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 8150 9250 50  0001 C CNN
 F 3 "" H 8100 9150 50  0001 C CNN
@@ -534,10 +523,10 @@ F 3 "" H 8100 9150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S9
+L kailh_hotplug_mx_plate:Kailh_Hotplug S26
 U 1 1 619E1AF3
 P 9000 9250
-F 0 "S9" H 9000 9500 50  0000 C CNN
+F 0 "S26" H 9000 9500 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9000 9200 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 9050 9600 50  0001 C CNN
 F 3 "" H 9000 9500 50  0001 C CNN
@@ -545,10 +534,10 @@ F 3 "" H 9000 9500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S4
+L kailh_hotplug_mx_plate:Kailh_Hotplug S33
 U 1 1 619E0BD3
 P 10000 9400
-F 0 "S4" H 10000 9650 50  0000 C CNN
+F 0 "S33" H 10000 9650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 10000 9350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 10050 9750 50  0001 C CNN
 F 3 "" H 10000 9650 50  0001 C CNN
@@ -556,10 +545,10 @@ F 3 "" H 10000 9650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S18
+L kailh_hotplug_mx_plate:Kailh_Hotplug S15
 U 1 1 619E0BCD
 P 7100 8150
-F 0 "S18" H 7100 8400 50  0000 C CNN
+F 0 "S15" H 7100 8400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 7100 8100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 7150 8500 50  0001 C CNN
 F 3 "" H 7100 8400 50  0001 C CNN
@@ -567,10 +556,10 @@ F 3 "" H 7100 8400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S8
+L kailh_hotplug_mx_plate:Kailh_Hotplug S25
 U 1 1 619E0BC1
 P 9000 8700
-F 0 "S8" H 9000 8950 50  0000 C CNN
+F 0 "S25" H 9000 8950 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9000 8650 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 9050 9050 50  0001 C CNN
 F 3 "" H 9000 8950 50  0001 C CNN
@@ -578,10 +567,10 @@ F 3 "" H 9000 8950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S3
+L kailh_hotplug_mx_plate:Kailh_Hotplug S32
 U 1 1 619D79E6
 P 10000 8900
-F 0 "S3" H 10000 9150 50  0000 C CNN
+F 0 "S32" H 10000 9150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 10000 8850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 10050 9250 50  0001 C CNN
 F 3 "" H 10000 9150 50  0001 C CNN
@@ -589,10 +578,10 @@ F 3 "" H 10000 9150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S17
+L kailh_hotplug_mx_plate:Kailh_Hotplug S14
 U 1 1 619D79DC
 P 7100 7650
-F 0 "S17" H 7100 7900 50  0000 C CNN
+F 0 "S14" H 7100 7900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 7100 7600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 7150 8000 50  0001 C CNN
 F 3 "" H 7100 7900 50  0001 C CNN
@@ -600,10 +589,10 @@ F 3 "" H 7100 7900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S12
+L kailh_hotplug_mx_plate:Kailh_Hotplug S19
 U 1 1 619D79D2
 P 8100 7900
-F 0 "S12" H 8100 8150 50  0000 C CNN
+F 0 "S19" H 8100 8150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 8100 7850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 8150 8250 50  0001 C CNN
 F 3 "" H 8100 8150 50  0001 C CNN
@@ -611,10 +600,10 @@ F 3 "" H 8100 8150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S7
+L kailh_hotplug_mx_plate:Kailh_Hotplug S24
 U 1 1 619D791C
 P 9000 8200
-F 0 "S7" H 9000 8450 50  0000 C CNN
+F 0 "S24" H 9000 8450 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9000 8150 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 9050 8550 50  0001 C CNN
 F 3 "" H 9000 8450 50  0001 C CNN
@@ -622,21 +611,10 @@ F 3 "" H 9000 8450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S30
-U 1 1 619D324E
-P 4400 7300
-F 0 "S30" H 4400 7550 50  0000 C CNN
-F 1 "Kailh_Hotplug" H 4400 7250 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_platemount" H 4450 7650 50  0001 C CNN
-F 3 "" H 4400 7550 50  0001 C CNN
-	1    4400 7300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S2
+L kailh_hotplug_mx_plate:Kailh_Hotplug S31
 U 1 1 619D3244
 P 10000 8400
-F 0 "S2" H 10000 8650 50  0000 C CNN
+F 0 "S31" H 10000 8650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 10000 8350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 10050 8750 50  0001 C CNN
 F 3 "" H 10000 8650 50  0001 C CNN
@@ -644,10 +622,10 @@ F 3 "" H 10000 8650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S16
+L kailh_hotplug_mx_plate:Kailh_Hotplug S13
 U 1 1 619D323A
 P 7100 7150
-F 0 "S16" H 7100 7400 50  0000 C CNN
+F 0 "S13" H 7100 7400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 7100 7100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 7150 7500 50  0001 C CNN
 F 3 "" H 7100 7400 50  0001 C CNN
@@ -655,10 +633,10 @@ F 3 "" H 7100 7400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S11
+L kailh_hotplug_mx_plate:Kailh_Hotplug S18
 U 1 1 619D3230
 P 8100 7400
-F 0 "S11" H 8100 7650 50  0000 C CNN
+F 0 "S18" H 8100 7650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 8100 7350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 8150 7750 50  0001 C CNN
 F 3 "" H 8100 7650 50  0001 C CNN
@@ -666,10 +644,10 @@ F 3 "" H 8100 7650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S6
+L kailh_hotplug_mx_plate:Kailh_Hotplug S23
 U 1 1 619D31CA
 P 9000 7700
-F 0 "S6" H 9000 7950 50  0000 C CNN
+F 0 "S23" H 9000 7950 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9000 7650 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 9050 8050 50  0001 C CNN
 F 3 "" H 9000 7950 50  0001 C CNN
@@ -677,10 +655,10 @@ F 3 "" H 9000 7950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S1
+L kailh_hotplug_mx_plate:Kailh_Hotplug S30
 U 1 1 619C7D02
 P 10000 7900
-F 0 "S1" H 10000 8150 50  0000 C CNN
+F 0 "S30" H 10000 8150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 10000 7850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 10050 8250 50  0001 C CNN
 F 3 "" H 10000 8150 50  0001 C CNN
@@ -688,10 +666,10 @@ F 3 "" H 10000 8150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S15
+L kailh_hotplug_mx_plate:Kailh_Hotplug S12
 U 1 1 619C74C9
 P 7100 6600
-F 0 "S15" H 7100 6850 50  0000 C CNN
+F 0 "S12" H 7100 6850 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 7100 6550 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 7150 6950 50  0001 C CNN
 F 3 "" H 7100 6850 50  0001 C CNN
@@ -699,10 +677,10 @@ F 3 "" H 7100 6850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S10
+L kailh_hotplug_mx_plate:Kailh_Hotplug S17
 U 1 1 619C6DB0
 P 8100 6850
-F 0 "S10" H 8100 7100 50  0000 C CNN
+F 0 "S17" H 8100 7100 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 8100 6800 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 8150 7200 50  0001 C CNN
 F 3 "" H 8100 7100 50  0001 C CNN
@@ -710,10 +688,10 @@ F 3 "" H 8100 7100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S5
+L kailh_hotplug_mx_plate:Kailh_Hotplug S22
 U 1 1 619C6757
 P 9000 7200
-F 0 "S5" H 9000 7450 50  0000 C CNN
+F 0 "S22" H 9000 7450 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9000 7150 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 9050 7550 50  0001 C CNN
 F 3 "" H 9000 7450 50  0001 C CNN
@@ -936,10 +914,10 @@ Connection ~ 6600 8550
 Wire Wire Line
 	6600 8550 6750 8550
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S29
+L kailh_hotplug_mx_plate:Kailh_Hotplug S3
 U 1 1 619F2B7B
 P 4800 8300
-F 0 "S29" H 4800 8550 50  0000 C CNN
+F 0 "S3" H 4800 8550 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 4800 8250 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 4850 8650 50  0001 C CNN
 F 3 "" H 4800 8550 50  0001 C CNN
@@ -1023,12 +1001,7 @@ Wire Wire Line
 	5000 8450 5000 8700
 Connection ~ 5000 7200
 Wire Wire Line
-	4200 6200 4200 7200
-Wire Wire Line
-	4200 7200 4200 7700
-Wire Wire Line
 	4200 7700 4600 7700
-Connection ~ 4200 7200
 Wire Wire Line
 	4200 7700 4200 8200
 Wire Wire Line
@@ -1042,22 +1015,13 @@ Wire Wire Line
 	9550 7100 9500 7100
 Wire Wire Line
 	9550 6750 8600 6750
-Wire Wire Line
-	4900 7200 4900 7000
-Wire Wire Line
-	5700 7000 5700 6850
-Wire Wire Line
-	5700 7000 5700 7200
-Connection ~ 5700 7000
-Wire Wire Line
-	4900 7000 5700 7000
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S52
+L kailh_hotplug_mx_plate:Kailh_Hotplug S50
 U 1 1 61EC34AE
 P 15200 8400
-AR Path="/61EC34AE" Ref="S52"  Part="1" 
+AR Path="/61EC34AE" Ref="S50"  Part="1" 
 AR Path="/61B9E042/61EC34AE" Ref="S?"  Part="1" 
-F 0 "S52" H 15200 8650 50  0000 C CNN
+F 0 "S50" H 15200 8650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 15200 8350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 15250 8750 50  0001 C CNN
 F 3 "" H 15200 8650 50  0001 C CNN
@@ -1065,12 +1029,12 @@ F 3 "" H 15200 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D32
+L Diode:1N4148 D72
 U 1 1 61EC34B4
 P 18550 7200
-AR Path="/61EC34B4" Ref="D32"  Part="1" 
+AR Path="/61EC34B4" Ref="D72"  Part="1" 
 AR Path="/61B9E042/61EC34B4" Ref="D?"  Part="1" 
-F 0 "D32" H 18550 7300 50  0000 C CNN
+F 0 "D72" H 18550 7300 50  0000 C CNN
 F 1 "1N4148" H 18550 7100 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18550 7025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18550 7200 50  0001 C CNN
@@ -1078,12 +1042,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D33
+L Diode:1N4148 D75
 U 1 1 61EC34BA
 P 18550 8700
-AR Path="/61EC34BA" Ref="D33"  Part="1" 
+AR Path="/61EC34BA" Ref="D75"  Part="1" 
 AR Path="/61B9E042/61EC34BA" Ref="D?"  Part="1" 
-F 0 "D33" H 18550 8800 50  0000 C CNN
+F 0 "D75" H 18550 8800 50  0000 C CNN
 F 1 "1N4148" H 18550 8600 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18550 8525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18550 8700 50  0001 C CNN
@@ -1091,12 +1055,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D38
+L Diode:1N4148 D71
 U 1 1 61EC34C0
 P 17750 8700
-AR Path="/61EC34C0" Ref="D38"  Part="1" 
+AR Path="/61EC34C0" Ref="D71"  Part="1" 
 AR Path="/61B9E042/61EC34C0" Ref="D?"  Part="1" 
-F 0 "D38" H 17750 8800 50  0000 C CNN
+F 0 "D71" H 17750 8800 50  0000 C CNN
 F 1 "1N4148" H 17750 8600 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17750 8525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750 8700 50  0001 C CNN
@@ -1104,38 +1068,38 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D35
+L Diode:1N4148 D70
 U 1 1 61EC34C6
-P 18150 8200
-AR Path="/61EC34C6" Ref="D35"  Part="1" 
+P 17750 8200
+AR Path="/61EC34C6" Ref="D70"  Part="1" 
 AR Path="/61B9E042/61EC34C6" Ref="D?"  Part="1" 
-F 0 "D35" H 18150 8300 50  0000 C CNN
-F 1 "1N4148" H 18150 8100 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18150 8025 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18150 8200 50  0001 C CNN
-	1    18150 8200
+F 0 "D70" H 17750 8300 50  0000 C CNN
+F 1 "1N4148" H 17750 8100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17750 8025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750 8200 50  0001 C CNN
+	1    17750 8200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D34
+L Diode:1N4148 D69
 U 1 1 61EC34CC
-P 18150 7700
-AR Path="/61EC34CC" Ref="D34"  Part="1" 
+P 17750 7700
+AR Path="/61EC34CC" Ref="D69"  Part="1" 
 AR Path="/61B9E042/61EC34CC" Ref="D?"  Part="1" 
-F 0 "D34" H 18150 7800 50  0000 C CNN
-F 1 "1N4148" H 18150 7600 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18150 7525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18150 7700 50  0001 C CNN
-	1    18150 7700
+F 0 "D69" H 17750 7800 50  0000 C CNN
+F 1 "1N4148" H 17750 7600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17750 7525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750 7700 50  0001 C CNN
+	1    17750 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D37
+L Diode:1N4148 D68
 U 1 1 61EC34D2
 P 17750 7200
-AR Path="/61EC34D2" Ref="D37"  Part="1" 
+AR Path="/61EC34D2" Ref="D68"  Part="1" 
 AR Path="/61B9E042/61EC34D2" Ref="D?"  Part="1" 
-F 0 "D37" H 17750 7300 50  0000 C CNN
+F 0 "D68" H 17750 7300 50  0000 C CNN
 F 1 "1N4148" H 17750 7100 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17750 7025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750 7200 50  0001 C CNN
@@ -1143,12 +1107,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D36
+L Diode:1N4148 D67
 U 1 1 61EC34D8
 P 17750 6650
-AR Path="/61EC34D8" Ref="D36"  Part="1" 
+AR Path="/61EC34D8" Ref="D67"  Part="1" 
 AR Path="/61B9E042/61EC34D8" Ref="D?"  Part="1" 
-F 0 "D36" H 17750 6750 50  0000 C CNN
+F 0 "D67" H 17750 6750 50  0000 C CNN
 F 1 "1N4148" H 17750 6550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17750 6475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750 6650 50  0001 C CNN
@@ -1156,12 +1120,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 17750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D39
+L Diode:1N4148 D61
 U 1 1 61EC34DE
 P 16900 6500
-AR Path="/61EC34DE" Ref="D39"  Part="1" 
+AR Path="/61EC34DE" Ref="D61"  Part="1" 
 AR Path="/61B9E042/61EC34DE" Ref="D?"  Part="1" 
-F 0 "D39" H 16900 6600 50  0000 C CNN
+F 0 "D61" H 16900 6600 50  0000 C CNN
 F 1 "1N4148" H 16900 6400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16900 6325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900 6500 50  0001 C CNN
@@ -1169,12 +1133,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D40
+L Diode:1N4148 D62
 U 1 1 61EC34E4
 P 16900 7050
-AR Path="/61EC34E4" Ref="D40"  Part="1" 
+AR Path="/61EC34E4" Ref="D62"  Part="1" 
 AR Path="/61B9E042/61EC34E4" Ref="D?"  Part="1" 
-F 0 "D40" H 16900 7150 50  0000 C CNN
+F 0 "D62" H 16900 7150 50  0000 C CNN
 F 1 "1N4148" H 16900 6950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16900 6875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900 7050 50  0001 C CNN
@@ -1182,12 +1146,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D41
+L Diode:1N4148 D63
 U 1 1 61EC34EA
 P 16900 7550
-AR Path="/61EC34EA" Ref="D41"  Part="1" 
+AR Path="/61EC34EA" Ref="D63"  Part="1" 
 AR Path="/61B9E042/61EC34EA" Ref="D?"  Part="1" 
-F 0 "D41" H 16900 7650 50  0000 C CNN
+F 0 "D63" H 16900 7650 50  0000 C CNN
 F 1 "1N4148" H 16900 7450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16900 7375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900 7550 50  0001 C CNN
@@ -1195,12 +1159,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D42
+L Diode:1N4148 D64
 U 1 1 61EC34F0
 P 16900 8050
-AR Path="/61EC34F0" Ref="D42"  Part="1" 
+AR Path="/61EC34F0" Ref="D64"  Part="1" 
 AR Path="/61B9E042/61EC34F0" Ref="D?"  Part="1" 
-F 0 "D42" H 16900 8150 50  0000 C CNN
+F 0 "D64" H 16900 8150 50  0000 C CNN
 F 1 "1N4148" H 16900 7950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16900 7875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900 8050 50  0001 C CNN
@@ -1208,12 +1172,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D43
+L Diode:1N4148 D65
 U 1 1 61EC34F6
 P 16900 8550
-AR Path="/61EC34F6" Ref="D43"  Part="1" 
+AR Path="/61EC34F6" Ref="D65"  Part="1" 
 AR Path="/61B9E042/61EC34F6" Ref="D?"  Part="1" 
-F 0 "D43" H 16900 8650 50  0000 C CNN
+F 0 "D65" H 16900 8650 50  0000 C CNN
 F 1 "1N4148" H 16900 8450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 16900 8375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900 8550 50  0001 C CNN
@@ -1221,12 +1185,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 16900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D48
+L Diode:1N4148 D60
 U 1 1 61EC34FC
 P 15850 8550
-AR Path="/61EC34FC" Ref="D48"  Part="1" 
+AR Path="/61EC34FC" Ref="D60"  Part="1" 
 AR Path="/61B9E042/61EC34FC" Ref="D?"  Part="1" 
-F 0 "D48" H 15850 8650 50  0000 C CNN
+F 0 "D60" H 15850 8650 50  0000 C CNN
 F 1 "1N4148" H 15850 8450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15850 8375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850 8550 50  0001 C CNN
@@ -1234,12 +1198,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D47
+L Diode:1N4148 D59
 U 1 1 61EC3502
 P 15850 8050
-AR Path="/61EC3502" Ref="D47"  Part="1" 
+AR Path="/61EC3502" Ref="D59"  Part="1" 
 AR Path="/61B9E042/61EC3502" Ref="D?"  Part="1" 
-F 0 "D47" H 15850 8150 50  0000 C CNN
+F 0 "D59" H 15850 8150 50  0000 C CNN
 F 1 "1N4148" H 15850 7950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15850 7875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850 8050 50  0001 C CNN
@@ -1247,12 +1211,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D46
+L Diode:1N4148 D58
 U 1 1 61EC3508
 P 15850 7550
-AR Path="/61EC3508" Ref="D46"  Part="1" 
+AR Path="/61EC3508" Ref="D58"  Part="1" 
 AR Path="/61B9E042/61EC3508" Ref="D?"  Part="1" 
-F 0 "D46" H 15850 7650 50  0000 C CNN
+F 0 "D58" H 15850 7650 50  0000 C CNN
 F 1 "1N4148" H 15850 7450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15850 7375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850 7550 50  0001 C CNN
@@ -1260,12 +1224,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D45
+L Diode:1N4148 D57
 U 1 1 61EC350E
 P 15850 7050
-AR Path="/61EC350E" Ref="D45"  Part="1" 
+AR Path="/61EC350E" Ref="D57"  Part="1" 
 AR Path="/61B9E042/61EC350E" Ref="D?"  Part="1" 
-F 0 "D45" H 15850 7150 50  0000 C CNN
+F 0 "D57" H 15850 7150 50  0000 C CNN
 F 1 "1N4148" H 15850 6950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15850 6875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850 7050 50  0001 C CNN
@@ -1273,12 +1237,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D44
+L Diode:1N4148 D56
 U 1 1 61EC3514
 P 15850 6500
-AR Path="/61EC3514" Ref="D44"  Part="1" 
+AR Path="/61EC3514" Ref="D56"  Part="1" 
 AR Path="/61B9E042/61EC3514" Ref="D?"  Part="1" 
-F 0 "D44" H 15850 6600 50  0000 C CNN
+F 0 "D56" H 15850 6600 50  0000 C CNN
 F 1 "1N4148" H 15850 6400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15850 6325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850 6500 50  0001 C CNN
@@ -1286,12 +1250,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D49
+L Diode:1N4148 D46
 U 1 1 61EC351A
 P 14850 6750
-AR Path="/61EC351A" Ref="D49"  Part="1" 
+AR Path="/61EC351A" Ref="D46"  Part="1" 
 AR Path="/61B9E042/61EC351A" Ref="D?"  Part="1" 
-F 0 "D49" H 14850 6850 50  0000 C CNN
+F 0 "D46" H 14850 6850 50  0000 C CNN
 F 1 "1N4148" H 14850 6650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14850 6575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850 6750 50  0001 C CNN
@@ -1299,12 +1263,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D50
+L Diode:1N4148 D47
 U 1 1 61EC3520
 P 14850 7300
-AR Path="/61EC3520" Ref="D50"  Part="1" 
+AR Path="/61EC3520" Ref="D47"  Part="1" 
 AR Path="/61B9E042/61EC3520" Ref="D?"  Part="1" 
-F 0 "D50" H 14850 7400 50  0000 C CNN
+F 0 "D47" H 14850 7400 50  0000 C CNN
 F 1 "1N4148" H 14850 7200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14850 7125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850 7300 50  0001 C CNN
@@ -1312,12 +1276,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D51
+L Diode:1N4148 D48
 U 1 1 61EC3526
 P 14850 7800
-AR Path="/61EC3526" Ref="D51"  Part="1" 
+AR Path="/61EC3526" Ref="D48"  Part="1" 
 AR Path="/61B9E042/61EC3526" Ref="D?"  Part="1" 
-F 0 "D51" H 14850 7900 50  0000 C CNN
+F 0 "D48" H 14850 7900 50  0000 C CNN
 F 1 "1N4148" H 14850 7700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14850 7625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850 7800 50  0001 C CNN
@@ -1325,12 +1289,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D52
+L Diode:1N4148 D49
 U 1 1 61EC352C
 P 14850 8300
-AR Path="/61EC352C" Ref="D52"  Part="1" 
+AR Path="/61EC352C" Ref="D49"  Part="1" 
 AR Path="/61B9E042/61EC352C" Ref="D?"  Part="1" 
-F 0 "D52" H 14850 8400 50  0000 C CNN
+F 0 "D49" H 14850 8400 50  0000 C CNN
 F 1 "1N4148" H 14850 8200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14850 8125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850 8300 50  0001 C CNN
@@ -1338,12 +1302,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D53
+L Diode:1N4148 D50
 U 1 1 61EC3532
 P 14850 8800
-AR Path="/61EC3532" Ref="D53"  Part="1" 
+AR Path="/61EC3532" Ref="D50"  Part="1" 
 AR Path="/61B9E042/61EC3532" Ref="D?"  Part="1" 
-F 0 "D53" H 14850 8900 50  0000 C CNN
+F 0 "D50" H 14850 8900 50  0000 C CNN
 F 1 "1N4148" H 14850 8700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14850 8625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850 8800 50  0001 C CNN
@@ -1351,12 +1315,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D58
+L Diode:1N4148 D44
 U 1 1 61EC3538
 P 13950 9150
-AR Path="/61EC3538" Ref="D58"  Part="1" 
+AR Path="/61EC3538" Ref="D44"  Part="1" 
 AR Path="/61B9E042/61EC3538" Ref="D?"  Part="1" 
-F 0 "D58" H 13950 9250 50  0000 C CNN
+F 0 "D44" H 13950 9250 50  0000 C CNN
 F 1 "1N4148" H 13950 9050 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13950 8975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950 9150 50  0001 C CNN
@@ -1364,12 +1328,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D57
+L Diode:1N4148 D43
 U 1 1 61EC353E
 P 13950 8600
-AR Path="/61EC353E" Ref="D57"  Part="1" 
+AR Path="/61EC353E" Ref="D43"  Part="1" 
 AR Path="/61B9E042/61EC353E" Ref="D?"  Part="1" 
-F 0 "D57" H 13950 8700 50  0000 C CNN
+F 0 "D43" H 13950 8700 50  0000 C CNN
 F 1 "1N4148" H 13950 8500 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13950 8425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950 8600 50  0001 C CNN
@@ -1377,12 +1341,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D56
+L Diode:1N4148 D42
 U 1 1 61EC3544
 P 13950 8100
-AR Path="/61EC3544" Ref="D56"  Part="1" 
+AR Path="/61EC3544" Ref="D42"  Part="1" 
 AR Path="/61B9E042/61EC3544" Ref="D?"  Part="1" 
-F 0 "D56" H 13950 8200 50  0000 C CNN
+F 0 "D42" H 13950 8200 50  0000 C CNN
 F 1 "1N4148" H 13950 8000 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13950 7925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950 8100 50  0001 C CNN
@@ -1390,12 +1354,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D55
+L Diode:1N4148 D41
 U 1 1 61EC354A
 P 13950 7600
-AR Path="/61EC354A" Ref="D55"  Part="1" 
+AR Path="/61EC354A" Ref="D41"  Part="1" 
 AR Path="/61B9E042/61EC354A" Ref="D?"  Part="1" 
-F 0 "D55" H 13950 7700 50  0000 C CNN
+F 0 "D41" H 13950 7700 50  0000 C CNN
 F 1 "1N4148" H 13950 7500 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13950 7425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950 7600 50  0001 C CNN
@@ -1403,12 +1367,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D54
+L Diode:1N4148 D40
 U 1 1 61EC3550
 P 13950 7100
-AR Path="/61EC3550" Ref="D54"  Part="1" 
+AR Path="/61EC3550" Ref="D40"  Part="1" 
 AR Path="/61B9E042/61EC3550" Ref="D?"  Part="1" 
-F 0 "D54" H 13950 7200 50  0000 C CNN
+F 0 "D40" H 13950 7200 50  0000 C CNN
 F 1 "1N4148" H 13950 7000 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13950 6925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950 7100 50  0001 C CNN
@@ -1416,12 +1380,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D62
+L Diode:1N4148 D39
 U 1 1 61EC3556
 P 12950 9300
-AR Path="/61EC3556" Ref="D62"  Part="1" 
+AR Path="/61EC3556" Ref="D39"  Part="1" 
 AR Path="/61B9E042/61EC3556" Ref="D?"  Part="1" 
-F 0 "D62" H 12950 9400 50  0000 C CNN
+F 0 "D39" H 12950 9400 50  0000 C CNN
 F 1 "1N4148" H 12950 9200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12950 9125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12950 9300 50  0001 C CNN
@@ -1429,12 +1393,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D61
+L Diode:1N4148 D38
 U 1 1 61EC355C
 P 12950 8800
-AR Path="/61EC355C" Ref="D61"  Part="1" 
+AR Path="/61EC355C" Ref="D38"  Part="1" 
 AR Path="/61B9E042/61EC355C" Ref="D?"  Part="1" 
-F 0 "D61" H 12950 8900 50  0000 C CNN
+F 0 "D38" H 12950 8900 50  0000 C CNN
 F 1 "1N4148" H 12950 8700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12950 8625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12950 8800 50  0001 C CNN
@@ -1442,12 +1406,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D60
+L Diode:1N4148 D37
 U 1 1 61EC3562
 P 12950 8300
-AR Path="/61EC3562" Ref="D60"  Part="1" 
+AR Path="/61EC3562" Ref="D37"  Part="1" 
 AR Path="/61B9E042/61EC3562" Ref="D?"  Part="1" 
-F 0 "D60" H 12950 8400 50  0000 C CNN
+F 0 "D37" H 12950 8400 50  0000 C CNN
 F 1 "1N4148" H 12950 8200 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12950 8125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12950 8300 50  0001 C CNN
@@ -1455,12 +1419,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D59
+L Diode:1N4148 D36
 U 1 1 61EC3568
 P 12950 7800
-AR Path="/61EC3568" Ref="D59"  Part="1" 
+AR Path="/61EC3568" Ref="D36"  Part="1" 
 AR Path="/61B9E042/61EC3568" Ref="D?"  Part="1" 
-F 0 "D59" H 12950 7900 50  0000 C CNN
+F 0 "D36" H 12950 7900 50  0000 C CNN
 F 1 "1N4148" H 12950 7700 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12950 7625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12950 7800 50  0001 C CNN
@@ -1492,12 +1456,12 @@ R_ROW2
 Text GLabel 12600 7100 0    50   Input ~ 0
 R_ROW1
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S38
+L kailh_hotplug_mx_plate:Kailh_Hotplug S66
 U 1 1 61EC357A
 P 18100 8800
-AR Path="/61EC357A" Ref="S38"  Part="1" 
+AR Path="/61EC357A" Ref="S66"  Part="1" 
 AR Path="/61B9E042/61EC357A" Ref="S?"  Part="1" 
-F 0 "S38" H 18100 9050 50  0000 C CNN
+F 0 "S66" H 18100 9050 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 18100 8750 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 18150 9150 50  0001 C CNN
 F 3 "" H 18100 9050 50  0001 C CNN
@@ -1505,25 +1469,25 @@ F 3 "" H 18100 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S34
+L kailh_hotplug_mx_plate:Kailh_Hotplug S64
 U 1 1 61EC3580
-P 18500 7800
-AR Path="/61EC3580" Ref="S34"  Part="1" 
+P 18100 7800
+AR Path="/61EC3580" Ref="S64"  Part="1" 
 AR Path="/61B9E042/61EC3580" Ref="S?"  Part="1" 
-F 0 "S34" H 18500 8050 50  0000 C CNN
-F 1 "Kailh_Hotplug" H 18500 7750 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_platemount" H 18550 8150 50  0001 C CNN
-F 3 "" H 18500 8050 50  0001 C CNN
-	1    18500 7800
+F 0 "S64" H 18100 8050 50  0000 C CNN
+F 1 "Kailh_Hotplug" H 18100 7750 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX_platemount" H 18150 8150 50  0001 C CNN
+F 3 "" H 18100 8050 50  0001 C CNN
+	1    18100 7800
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S37
+L kailh_hotplug_mx_plate:Kailh_Hotplug S63
 U 1 1 61EC3586
 P 18100 7300
-AR Path="/61EC3586" Ref="S37"  Part="1" 
+AR Path="/61EC3586" Ref="S63"  Part="1" 
 AR Path="/61B9E042/61EC3586" Ref="S?"  Part="1" 
-F 0 "S37" H 18100 7550 50  0000 C CNN
+F 0 "S63" H 18100 7550 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 18100 7250 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 18150 7650 50  0001 C CNN
 F 3 "" H 18100 7550 50  0001 C CNN
@@ -1531,12 +1495,12 @@ F 3 "" H 18100 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S36
+L kailh_hotplug_mx_plate:Kailh_Hotplug S62
 U 1 1 61EC358C
 P 18100 6750
-AR Path="/61EC358C" Ref="S36"  Part="1" 
+AR Path="/61EC358C" Ref="S62"  Part="1" 
 AR Path="/61B9E042/61EC358C" Ref="S?"  Part="1" 
-F 0 "S36" H 18100 7000 50  0000 C CNN
+F 0 "S62" H 18100 7000 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 18100 6700 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 18150 7100 50  0001 C CNN
 F 3 "" H 18100 7000 50  0001 C CNN
@@ -1544,12 +1508,12 @@ F 3 "" H 18100 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S43
+L kailh_hotplug_mx_plate:Kailh_Hotplug S61
 U 1 1 61EC3592
 P 17250 8650
-AR Path="/61EC3592" Ref="S43"  Part="1" 
+AR Path="/61EC3592" Ref="S61"  Part="1" 
 AR Path="/61B9E042/61EC3592" Ref="S?"  Part="1" 
-F 0 "S43" H 17250 8900 50  0000 C CNN
+F 0 "S61" H 17250 8900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 17250 8600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 17300 9000 50  0001 C CNN
 F 3 "" H 17250 8900 50  0001 C CNN
@@ -1557,12 +1521,12 @@ F 3 "" H 17250 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S42
+L kailh_hotplug_mx_plate:Kailh_Hotplug S60
 U 1 1 61EC3598
 P 17250 8150
-AR Path="/61EC3598" Ref="S42"  Part="1" 
+AR Path="/61EC3598" Ref="S60"  Part="1" 
 AR Path="/61B9E042/61EC3598" Ref="S?"  Part="1" 
-F 0 "S42" H 17250 8400 50  0000 C CNN
+F 0 "S60" H 17250 8400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 17250 8100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 17300 8500 50  0001 C CNN
 F 3 "" H 17250 8400 50  0001 C CNN
@@ -1570,12 +1534,12 @@ F 3 "" H 17250 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S41
+L kailh_hotplug_mx_plate:Kailh_Hotplug S59
 U 1 1 61EC359E
 P 17250 7650
-AR Path="/61EC359E" Ref="S41"  Part="1" 
+AR Path="/61EC359E" Ref="S59"  Part="1" 
 AR Path="/61B9E042/61EC359E" Ref="S?"  Part="1" 
-F 0 "S41" H 17250 7900 50  0000 C CNN
+F 0 "S59" H 17250 7900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 17250 7600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 17300 8000 50  0001 C CNN
 F 3 "" H 17250 7900 50  0001 C CNN
@@ -1583,12 +1547,12 @@ F 3 "" H 17250 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S40
+L kailh_hotplug_mx_plate:Kailh_Hotplug S58
 U 1 1 61EC35A4
 P 17250 7150
-AR Path="/61EC35A4" Ref="S40"  Part="1" 
+AR Path="/61EC35A4" Ref="S58"  Part="1" 
 AR Path="/61B9E042/61EC35A4" Ref="S?"  Part="1" 
-F 0 "S40" H 17250 7400 50  0000 C CNN
+F 0 "S58" H 17250 7400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 17250 7100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 17300 7500 50  0001 C CNN
 F 3 "" H 17250 7400 50  0001 C CNN
@@ -1596,12 +1560,12 @@ F 3 "" H 17250 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S39
+L kailh_hotplug_mx_plate:Kailh_Hotplug S57
 U 1 1 61EC35AA
 P 17250 6600
-AR Path="/61EC35AA" Ref="S39"  Part="1" 
+AR Path="/61EC35AA" Ref="S57"  Part="1" 
 AR Path="/61B9E042/61EC35AA" Ref="S?"  Part="1" 
-F 0 "S39" H 17250 6850 50  0000 C CNN
+F 0 "S57" H 17250 6850 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 17250 6550 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 17300 6950 50  0001 C CNN
 F 3 "" H 17250 6850 50  0001 C CNN
@@ -1609,12 +1573,12 @@ F 3 "" H 17250 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S33
+L kailh_hotplug_mx_plate:Kailh_Hotplug S70
 U 1 1 61EC35B0
 P 18900 8800
-AR Path="/61EC35B0" Ref="S33"  Part="1" 
+AR Path="/61EC35B0" Ref="S70"  Part="1" 
 AR Path="/61B9E042/61EC35B0" Ref="S?"  Part="1" 
-F 0 "S33" H 18900 9050 50  0000 C CNN
+F 0 "S70" H 18900 9050 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 18900 8750 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 18950 9150 50  0001 C CNN
 F 3 "" H 18900 9050 50  0001 C CNN
@@ -1622,12 +1586,12 @@ F 3 "" H 18900 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S48
+L kailh_hotplug_mx_plate:Kailh_Hotplug S56
 U 1 1 61EC35B6
 P 16200 8650
-AR Path="/61EC35B6" Ref="S48"  Part="1" 
+AR Path="/61EC35B6" Ref="S56"  Part="1" 
 AR Path="/61B9E042/61EC35B6" Ref="S?"  Part="1" 
-F 0 "S48" H 16200 8900 50  0000 C CNN
+F 0 "S56" H 16200 8900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 16200 8600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 16250 9000 50  0001 C CNN
 F 3 "" H 16200 8900 50  0001 C CNN
@@ -1635,12 +1599,12 @@ F 3 "" H 16200 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S53
+L kailh_hotplug_mx_plate:Kailh_Hotplug S51
 U 1 1 61EC35BC
 P 15200 8900
-AR Path="/61EC35BC" Ref="S53"  Part="1" 
+AR Path="/61EC35BC" Ref="S51"  Part="1" 
 AR Path="/61B9E042/61EC35BC" Ref="S?"  Part="1" 
-F 0 "S53" H 15200 9150 50  0000 C CNN
+F 0 "S51" H 15200 9150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 15200 8850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 15250 9250 50  0001 C CNN
 F 3 "" H 15200 9150 50  0001 C CNN
@@ -1648,12 +1612,12 @@ F 3 "" H 15200 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S58
+L kailh_hotplug_mx_plate:Kailh_Hotplug S43
 U 1 1 61EC35C2
 P 14300 9250
-AR Path="/61EC35C2" Ref="S58"  Part="1" 
+AR Path="/61EC35C2" Ref="S43"  Part="1" 
 AR Path="/61B9E042/61EC35C2" Ref="S?"  Part="1" 
-F 0 "S58" H 14300 9500 50  0000 C CNN
+F 0 "S43" H 14300 9500 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14300 9200 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14350 9600 50  0001 C CNN
 F 3 "" H 14300 9500 50  0001 C CNN
@@ -1661,12 +1625,12 @@ F 3 "" H 14300 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S62
+L kailh_hotplug_mx_plate:Kailh_Hotplug S38
 U 1 1 61EC35C8
 P 13300 9400
-AR Path="/61EC35C8" Ref="S62"  Part="1" 
+AR Path="/61EC35C8" Ref="S38"  Part="1" 
 AR Path="/61B9E042/61EC35C8" Ref="S?"  Part="1" 
-F 0 "S62" H 13300 9650 50  0000 C CNN
+F 0 "S38" H 13300 9650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 13300 9350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 13350 9750 50  0001 C CNN
 F 3 "" H 13300 9650 50  0001 C CNN
@@ -1674,12 +1638,12 @@ F 3 "" H 13300 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S47
+L kailh_hotplug_mx_plate:Kailh_Hotplug S55
 U 1 1 61EC35CE
 P 16200 8150
-AR Path="/61EC35CE" Ref="S47"  Part="1" 
+AR Path="/61EC35CE" Ref="S55"  Part="1" 
 AR Path="/61B9E042/61EC35CE" Ref="S?"  Part="1" 
-F 0 "S47" H 16200 8400 50  0000 C CNN
+F 0 "S55" H 16200 8400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 16200 8100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 16250 8500 50  0001 C CNN
 F 3 "" H 16200 8400 50  0001 C CNN
@@ -1687,12 +1651,12 @@ F 3 "" H 16200 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S57
+L kailh_hotplug_mx_plate:Kailh_Hotplug S42
 U 1 1 61EC35D4
 P 14300 8700
-AR Path="/61EC35D4" Ref="S57"  Part="1" 
+AR Path="/61EC35D4" Ref="S42"  Part="1" 
 AR Path="/61B9E042/61EC35D4" Ref="S?"  Part="1" 
-F 0 "S57" H 14300 8950 50  0000 C CNN
+F 0 "S42" H 14300 8950 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14300 8650 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14350 9050 50  0001 C CNN
 F 3 "" H 14300 8950 50  0001 C CNN
@@ -1700,12 +1664,12 @@ F 3 "" H 14300 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S61
+L kailh_hotplug_mx_plate:Kailh_Hotplug S37
 U 1 1 61EC35DA
 P 13300 8900
-AR Path="/61EC35DA" Ref="S61"  Part="1" 
+AR Path="/61EC35DA" Ref="S37"  Part="1" 
 AR Path="/61B9E042/61EC35DA" Ref="S?"  Part="1" 
-F 0 "S61" H 13300 9150 50  0000 C CNN
+F 0 "S37" H 13300 9150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 13300 8850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 13350 9250 50  0001 C CNN
 F 3 "" H 13300 9150 50  0001 C CNN
@@ -1713,12 +1677,12 @@ F 3 "" H 13300 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S46
+L kailh_hotplug_mx_plate:Kailh_Hotplug S54
 U 1 1 61EC35E0
 P 16200 7650
-AR Path="/61EC35E0" Ref="S46"  Part="1" 
+AR Path="/61EC35E0" Ref="S54"  Part="1" 
 AR Path="/61B9E042/61EC35E0" Ref="S?"  Part="1" 
-F 0 "S46" H 16200 7900 50  0000 C CNN
+F 0 "S54" H 16200 7900 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 16200 7600 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 16250 8000 50  0001 C CNN
 F 3 "" H 16200 7900 50  0001 C CNN
@@ -1726,12 +1690,12 @@ F 3 "" H 16200 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S51
+L kailh_hotplug_mx_plate:Kailh_Hotplug S49
 U 1 1 61EC35E6
 P 15200 7900
-AR Path="/61EC35E6" Ref="S51"  Part="1" 
+AR Path="/61EC35E6" Ref="S49"  Part="1" 
 AR Path="/61B9E042/61EC35E6" Ref="S?"  Part="1" 
-F 0 "S51" H 15200 8150 50  0000 C CNN
+F 0 "S49" H 15200 8150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 15200 7850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 15250 8250 50  0001 C CNN
 F 3 "" H 15200 8150 50  0001 C CNN
@@ -1739,12 +1703,12 @@ F 3 "" H 15200 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S56
+L kailh_hotplug_mx_plate:Kailh_Hotplug S41
 U 1 1 61EC35EC
 P 14300 8200
-AR Path="/61EC35EC" Ref="S56"  Part="1" 
+AR Path="/61EC35EC" Ref="S41"  Part="1" 
 AR Path="/61B9E042/61EC35EC" Ref="S?"  Part="1" 
-F 0 "S56" H 14300 8450 50  0000 C CNN
+F 0 "S41" H 14300 8450 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14300 8150 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14350 8550 50  0001 C CNN
 F 3 "" H 14300 8450 50  0001 C CNN
@@ -1752,12 +1716,12 @@ F 3 "" H 14300 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S32
+L kailh_hotplug_mx_plate:Kailh_Hotplug S67
 U 1 1 61EC35F2
 P 18900 7300
-AR Path="/61EC35F2" Ref="S32"  Part="1" 
+AR Path="/61EC35F2" Ref="S67"  Part="1" 
 AR Path="/61B9E042/61EC35F2" Ref="S?"  Part="1" 
-F 0 "S32" H 18900 7550 50  0000 C CNN
+F 0 "S67" H 18900 7550 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 18900 7250 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 18950 7650 50  0001 C CNN
 F 3 "" H 18900 7550 50  0001 C CNN
@@ -1765,12 +1729,12 @@ F 3 "" H 18900 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S60
+L kailh_hotplug_mx_plate:Kailh_Hotplug S36
 U 1 1 61EC35F8
 P 13300 8400
-AR Path="/61EC35F8" Ref="S60"  Part="1" 
+AR Path="/61EC35F8" Ref="S36"  Part="1" 
 AR Path="/61B9E042/61EC35F8" Ref="S?"  Part="1" 
-F 0 "S60" H 13300 8650 50  0000 C CNN
+F 0 "S36" H 13300 8650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 13300 8350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 13350 8750 50  0001 C CNN
 F 3 "" H 13300 8650 50  0001 C CNN
@@ -1778,12 +1742,12 @@ F 3 "" H 13300 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S45
+L kailh_hotplug_mx_plate:Kailh_Hotplug S53
 U 1 1 61EC35FE
 P 16200 7150
-AR Path="/61EC35FE" Ref="S45"  Part="1" 
+AR Path="/61EC35FE" Ref="S53"  Part="1" 
 AR Path="/61B9E042/61EC35FE" Ref="S?"  Part="1" 
-F 0 "S45" H 16200 7400 50  0000 C CNN
+F 0 "S53" H 16200 7400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 16200 7100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 16250 7500 50  0001 C CNN
 F 3 "" H 16200 7400 50  0001 C CNN
@@ -1791,12 +1755,12 @@ F 3 "" H 16200 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S50
+L kailh_hotplug_mx_plate:Kailh_Hotplug S48
 U 1 1 61EC3604
 P 15200 7400
-AR Path="/61EC3604" Ref="S50"  Part="1" 
+AR Path="/61EC3604" Ref="S48"  Part="1" 
 AR Path="/61B9E042/61EC3604" Ref="S?"  Part="1" 
-F 0 "S50" H 15200 7650 50  0000 C CNN
+F 0 "S48" H 15200 7650 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 15200 7350 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 15250 7750 50  0001 C CNN
 F 3 "" H 15200 7650 50  0001 C CNN
@@ -1804,12 +1768,12 @@ F 3 "" H 15200 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S55
+L kailh_hotplug_mx_plate:Kailh_Hotplug S40
 U 1 1 61EC360A
 P 14300 7700
-AR Path="/61EC360A" Ref="S55"  Part="1" 
+AR Path="/61EC360A" Ref="S40"  Part="1" 
 AR Path="/61B9E042/61EC360A" Ref="S?"  Part="1" 
-F 0 "S55" H 14300 7950 50  0000 C CNN
+F 0 "S40" H 14300 7950 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14300 7650 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14350 8050 50  0001 C CNN
 F 3 "" H 14300 7950 50  0001 C CNN
@@ -1817,12 +1781,12 @@ F 3 "" H 14300 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S59
+L kailh_hotplug_mx_plate:Kailh_Hotplug S35
 U 1 1 61EC3610
 P 13300 7900
-AR Path="/61EC3610" Ref="S59"  Part="1" 
+AR Path="/61EC3610" Ref="S35"  Part="1" 
 AR Path="/61B9E042/61EC3610" Ref="S?"  Part="1" 
-F 0 "S59" H 13300 8150 50  0000 C CNN
+F 0 "S35" H 13300 8150 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 13300 7850 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 13350 8250 50  0001 C CNN
 F 3 "" H 13300 8150 50  0001 C CNN
@@ -1830,12 +1794,12 @@ F 3 "" H 13300 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S44
+L kailh_hotplug_mx_plate:Kailh_Hotplug S52
 U 1 1 61EC3616
 P 16200 6600
-AR Path="/61EC3616" Ref="S44"  Part="1" 
+AR Path="/61EC3616" Ref="S52"  Part="1" 
 AR Path="/61B9E042/61EC3616" Ref="S?"  Part="1" 
-F 0 "S44" H 16200 6850 50  0000 C CNN
+F 0 "S52" H 16200 6850 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 16200 6550 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 16250 6950 50  0001 C CNN
 F 3 "" H 16200 6850 50  0001 C CNN
@@ -1843,12 +1807,12 @@ F 3 "" H 16200 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S49
+L kailh_hotplug_mx_plate:Kailh_Hotplug S47
 U 1 1 61EC361C
 P 15200 6850
-AR Path="/61EC361C" Ref="S49"  Part="1" 
+AR Path="/61EC361C" Ref="S47"  Part="1" 
 AR Path="/61B9E042/61EC361C" Ref="S?"  Part="1" 
-F 0 "S49" H 15200 7100 50  0000 C CNN
+F 0 "S47" H 15200 7100 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 15200 6800 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 15250 7200 50  0001 C CNN
 F 3 "" H 15200 7100 50  0001 C CNN
@@ -1856,12 +1820,12 @@ F 3 "" H 15200 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S54
+L kailh_hotplug_mx_plate:Kailh_Hotplug S39
 U 1 1 61EC3622
 P 14300 7200
-AR Path="/61EC3622" Ref="S54"  Part="1" 
+AR Path="/61EC3622" Ref="S39"  Part="1" 
 AR Path="/61B9E042/61EC3622" Ref="S?"  Part="1" 
-F 0 "S54" H 14300 7450 50  0000 C CNN
+F 0 "S39" H 14300 7450 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14300 7150 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14350 7550 50  0001 C CNN
 F 3 "" H 14300 7450 50  0001 C CNN
@@ -1979,9 +1943,7 @@ Wire Wire Line
 	15700 7550 15650 7550
 Connection ~ 15650 7550
 Wire Wire Line
-	18000 7700 17600 7700
-Wire Wire Line
-	17600 7700 17600 7350
+	17600 7700 17600 7500
 Wire Wire Line
 	17600 7350 16700 7350
 Wire Wire Line
@@ -2024,9 +1986,7 @@ Connection ~ 15650 8050
 Wire Wire Line
 	15650 8050 14650 8050
 Wire Wire Line
-	18000 8200 17600 8200
-Wire Wire Line
-	17600 8200 17600 7850
+	17600 8200 17600 8000
 Wire Wire Line
 	17600 7850 16700 7850
 Wire Wire Line
@@ -2084,16 +2044,16 @@ Connection ~ 16700 8550
 Wire Wire Line
 	16700 8550 16550 8550
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S35
+L kailh_hotplug_mx_plate:Kailh_Hotplug S65
 U 1 1 61EC36A1
-P 18500 8300
-AR Path="/61EC36A1" Ref="S35"  Part="1" 
+P 18100 8300
+AR Path="/61EC36A1" Ref="S65"  Part="1" 
 AR Path="/61B9E042/61EC36A1" Ref="S?"  Part="1" 
-F 0 "S35" H 18500 8550 50  0000 C CNN
-F 1 "Kailh_Hotplug" H 18500 8250 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_platemount" H 18550 8650 50  0001 C CNN
-F 3 "" H 18500 8550 50  0001 C CNN
-	1    18500 8300
+F 0 "S65" H 18100 8550 50  0000 C CNN
+F 1 "Kailh_Hotplug" H 18100 8250 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX_platemount" H 18150 8650 50  0001 C CNN
+F 3 "" H 18100 8550 50  0001 C CNN
+	1    18100 8300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2161,30 +2121,9 @@ Wire Wire Line
 Wire Wire Line
 	18300 6650 18300 7200
 Connection ~ 18300 6650
-Wire Wire Line
-	18300 7200 18300 7500
-Wire Wire Line
-	18300 7500 17950 7500
-Wire Wire Line
-	17950 7500 17950 8450
-Wire Wire Line
-	17950 8450 18300 8450
-Wire Wire Line
-	18300 8450 18300 8700
 Connection ~ 18300 7200
 Wire Wire Line
 	19100 6200 19100 7200
-Wire Wire Line
-	19100 7200 19100 7700
-Wire Wire Line
-	19100 7700 18700 7700
-Connection ~ 19100 7200
-Wire Wire Line
-	19100 7700 19100 8200
-Wire Wire Line
-	18700 8200 19100 8200
-Wire Wire Line
-	19100 8200 19100 8700
 Wire Wire Line
 	12750 7600 12750 7800
 Connection ~ 13750 7100
@@ -2216,10 +2155,10 @@ Wire Notes Line
 Wire Notes Line
 	2850 13950 2850 12450
 $Comp
-L Connector:TestPoint TP12
+L Connector:TestPoint TP14
 U 1 1 6865026B
 P 9500 13500
-F 0 "TP12" V 9454 13688 50  0000 L CNN
+F 0 "TP14" V 9454 13688 50  0000 L CNN
 F 1 "TestPoint" V 9545 13688 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9700 13500 50  0001 C CNN
 F 3 "~" H 9700 13500 50  0001 C CNN
@@ -2227,10 +2166,10 @@ F 3 "~" H 9700 13500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint TP10
 U 1 1 68564411
 P 9500 12900
-F 0 "TP8" V 9454 13088 50  0000 L CNN
+F 0 "TP10" V 9454 13088 50  0000 L CNN
 F 1 "TestPoint" V 9545 13088 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9700 12900 50  0001 C CNN
 F 3 "~" H 9700 12900 50  0001 C CNN
@@ -2238,10 +2177,10 @@ F 3 "~" H 9700 12900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint TP11
 U 1 1 6856440B
 P 9500 13050
-F 0 "TP9" V 9454 13238 50  0000 L CNN
+F 0 "TP11" V 9454 13238 50  0000 L CNN
 F 1 "TestPoint" V 9545 13238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9700 13050 50  0001 C CNN
 F 3 "~" H 9700 13050 50  0001 C CNN
@@ -2249,10 +2188,10 @@ F 3 "~" H 9700 13050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint TP12
 U 1 1 68564405
 P 9500 13200
-F 0 "TP10" V 9454 13388 50  0000 L CNN
+F 0 "TP12" V 9454 13388 50  0000 L CNN
 F 1 "TestPoint" V 9545 13388 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9700 13200 50  0001 C CNN
 F 3 "~" H 9700 13200 50  0001 C CNN
@@ -2260,10 +2199,10 @@ F 3 "~" H 9700 13200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP13
 U 1 1 685643FF
 P 9500 13350
-F 0 "TP11" V 9454 13538 50  0000 L CNN
+F 0 "TP13" V 9454 13538 50  0000 L CNN
 F 1 "TestPoint" V 9545 13538 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9700 13350 50  0001 C CNN
 F 3 "~" H 9700 13350 50  0001 C CNN
@@ -2271,10 +2210,10 @@ F 3 "~" H 9700 13350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP2
 U 1 1 680BBAA6
 P 8350 12650
-F 0 "TP1" V 8304 12838 50  0000 L CNN
+F 0 "TP2" V 8304 12838 50  0000 L CNN
 F 1 "TestPoint" V 8395 12838 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 12650 50  0001 C CNN
 F 3 "~" H 8550 12650 50  0001 C CNN
@@ -2282,10 +2221,10 @@ F 3 "~" H 8550 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint TP3
 U 1 1 68175422
 P 8350 12800
-F 0 "TP2" V 8304 12988 50  0000 L CNN
+F 0 "TP3" V 8304 12988 50  0000 L CNN
 F 1 "TestPoint" V 8395 12988 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 12800 50  0001 C CNN
 F 3 "~" H 8550 12800 50  0001 C CNN
@@ -2293,10 +2232,10 @@ F 3 "~" H 8550 12800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP4
 U 1 1 681A2B0F
 P 8350 12950
-F 0 "TP3" V 8304 13138 50  0000 L CNN
+F 0 "TP4" V 8304 13138 50  0000 L CNN
 F 1 "TestPoint" V 8395 13138 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 12950 50  0001 C CNN
 F 3 "~" H 8550 12950 50  0001 C CNN
@@ -2304,10 +2243,10 @@ F 3 "~" H 8550 12950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint TP5
 U 1 1 681D00C2
 P 8350 13100
-F 0 "TP4" V 8304 13288 50  0000 L CNN
+F 0 "TP5" V 8304 13288 50  0000 L CNN
 F 1 "TestPoint" V 8395 13288 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 13100 50  0001 C CNN
 F 3 "~" H 8550 13100 50  0001 C CNN
@@ -2315,10 +2254,10 @@ F 3 "~" H 8550 13100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP6
 U 1 1 681FD776
 P 8350 13250
-F 0 "TP5" V 8304 13438 50  0000 L CNN
+F 0 "TP6" V 8304 13438 50  0000 L CNN
 F 1 "TestPoint" V 8395 13438 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 13250 50  0001 C CNN
 F 3 "~" H 8550 13250 50  0001 C CNN
@@ -2326,10 +2265,10 @@ F 3 "~" H 8550 13250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP7
 U 1 1 6822AD57
 P 8350 13400
-F 0 "TP6" V 8304 13588 50  0000 L CNN
+F 0 "TP7" V 8304 13588 50  0000 L CNN
 F 1 "TestPoint" V 8395 13588 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 13400 50  0001 C CNN
 F 3 "~" H 8550 13400 50  0001 C CNN
@@ -2337,10 +2276,10 @@ F 3 "~" H 8550 13400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP8
 U 1 1 682583B8
 P 8350 13550
-F 0 "TP7" V 8304 13738 50  0000 L CNN
+F 0 "TP8" V 8304 13738 50  0000 L CNN
 F 1 "TestPoint" V 8395 13738 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 13550 50  0001 C CNN
 F 3 "~" H 8550 13550 50  0001 C CNN
@@ -2400,10 +2339,10 @@ Wire Notes Line
 Text Notes 7550 12450 2    118  ~ 24
 Programming and Debugging
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR019
 U 1 1 6BAC8417
 P 10000 4400
-F 0 "#PWR0101" H 10000 4150 50  0001 C CNN
+F 0 "#PWR019" H 10000 4150 50  0001 C CNN
 F 1 "GND" H 10005 4227 50  0000 C CNN
 F 2 "" H 10000 4400 50  0001 C CNN
 F 3 "" H 10000 4400 50  0001 C CNN
@@ -2413,10 +2352,10 @@ $EndComp
 Text GLabel 10800 4300 2    50   Input ~ 0
 L_TX
 $Comp
-L power:+5V #PWR0102
+L power:+5V #PWR018
 U 1 1 6BC354D3
 P 10000 4250
-F 0 "#PWR0102" H 10000 4100 50  0001 C CNN
+F 0 "#PWR018" H 10000 4100 50  0001 C CNN
 F 1 "+5V" H 10015 4423 50  0000 C CNN
 F 2 "" H 10000 4250 50  0001 C CNN
 F 3 "" H 10000 4250 50  0001 C CNN
@@ -2446,10 +2385,10 @@ F 3 "~" H 12650 10900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L power:GND #PWR025
 U 1 1 6AFA33F3
 P 12650 11050
-F 0 "#PWR0106" H 12650 10800 50  0001 C CNN
+F 0 "#PWR025" H 12650 10800 50  0001 C CNN
 F 1 "GND" H 12655 10877 50  0000 C CNN
 F 2 "" H 12650 11050 50  0001 C CNN
 F 3 "" H 12650 11050 50  0001 C CNN
@@ -2457,10 +2396,10 @@ F 3 "" H 12650 11050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alps_RKJXV:RKJXV122400R S66
+L Alps_RKJXV:RKJXV122400R S34
 U 1 1 6A557CA6
 P 12750 10400
-F 0 "S66" H 13250 10665 50  0000 C CNN
+F 0 "S34" H 13250 10665 50  0000 C CNN
 F 1 "RKJXV122400R" H 13250 10574 50  0000 C CNN
 F 2 "Alps:RKJXV122400R" H 13600 10500 50  0001 L CNN
 F 3 "https://tech.alpsalpine.com/prod/e/html/multicontrol/potentiometer/rkjxk/rkjxv122400r.html" H 13600 10400 50  0001 L CNN
@@ -2476,10 +2415,10 @@ F 11 "" H 13600 9600 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S65
+L kailh_hotplug_mx_plate:Kailh_Hotplug S29
 U 1 1 6A6C78AF
 P 9950 11600
-F 0 "S65" H 9950 11850 50  0000 C CNN
+F 0 "S29" H 9950 11850 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9950 11550 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 10000 11950 50  0001 C CNN
 F 3 "" H 9950 11850 50  0001 C CNN
@@ -2487,10 +2426,10 @@ F 3 "" H 9950 11850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D66
+L Diode:1N4148 D31
 U 1 1 6A6C78A9
 P 10300 11500
-F 0 "D66" H 10300 11600 50  0000 C CNN
+F 0 "D31" H 10300 11600 50  0000 C CNN
 F 1 "1N4148" H 10300 11400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10300 11325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300 11500 50  0001 C CNN
@@ -2498,10 +2437,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S64
+L kailh_hotplug_mx_plate:Kailh_Hotplug S28
 U 1 1 6A6A1871
 P 9950 11150
-F 0 "S64" H 9950 11400 50  0000 C CNN
+F 0 "S28" H 9950 11400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9950 11100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 10000 11500 50  0001 C CNN
 F 3 "" H 9950 11400 50  0001 C CNN
@@ -2509,10 +2448,10 @@ F 3 "" H 9950 11400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D65
+L Diode:1N4148 D30
 U 1 1 6A6A186B
 P 10300 11050
-F 0 "D65" H 10300 11150 50  0000 C CNN
+F 0 "D30" H 10300 11150 50  0000 C CNN
 F 1 "1N4148" H 10300 10950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10300 10875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300 11050 50  0001 C CNN
@@ -2520,10 +2459,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D64
+L Diode:1N4148 D29
 U 1 1 6A67B7A3
 P 10300 10600
-F 0 "D64" H 10300 10700 50  0000 C CNN
+F 0 "D29" H 10300 10700 50  0000 C CNN
 F 1 "1N4148" H 10300 10500 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10300 10425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300 10600 50  0001 C CNN
@@ -2547,10 +2486,10 @@ Wire Notes Line
 Wire Notes Line
 	12100 4800 12100 3950
 $Comp
-L power:GND #PWR04
+L power:GND #PWR010
 U 1 1 64D899FA
 P 3850 4450
-F 0 "#PWR04" H 3850 4200 50  0001 C CNN
+F 0 "#PWR010" H 3850 4200 50  0001 C CNN
 F 1 "GND" H 3855 4277 50  0000 C CNN
 F 2 "" H 3850 4450 50  0001 C CNN
 F 3 "" H 3850 4450 50  0001 C CNN
@@ -2598,10 +2537,10 @@ Wire Wire Line
 	5900 4350 5900 4450
 Connection ~ 5200 4450
 $Comp
-L Device:C_Small C4
+L Device:C_Small C5
 U 1 1 64D89A53
 P 5200 4250
-F 0 "C4" H 5292 4296 50  0000 L CNN
+F 0 "C5" H 5292 4296 50  0000 L CNN
 F 1 "4u7" H 5292 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5200 4250 50  0001 C CNN
 F 3 "~" H 5200 4250 50  0001 C CNN
@@ -2609,10 +2548,10 @@ F 3 "~" H 5200 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Device:C_Small C6
 U 1 1 64D89A4D
 P 5550 4250
-F 0 "C5" H 5642 4296 50  0000 L CNN
+F 0 "C6" H 5642 4296 50  0000 L CNN
 F 1 "100n" H 5642 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5550 4250 50  0001 C CNN
 F 3 "~" H 5550 4250 50  0001 C CNN
@@ -2620,10 +2559,10 @@ F 3 "~" H 5550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L Device:C_Small C7
 U 1 1 64D89A47
 P 5900 4250
-F 0 "C6" H 5992 4296 50  0000 L CNN
+F 0 "C7" H 5992 4296 50  0000 L CNN
 F 1 "100n" H 5992 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5900 4250 50  0001 C CNN
 F 3 "~" H 5900 4250 50  0001 C CNN
@@ -2631,10 +2570,10 @@ F 3 "~" H 5900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
+L Device:C_Small C8
 U 1 1 64D89A41
 P 6250 4250
-F 0 "C7" H 6342 4296 50  0000 L CNN
+F 0 "C8" H 6342 4296 50  0000 L CNN
 F 1 "100n" H 6342 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6250 4250 50  0001 C CNN
 F 3 "~" H 6250 4250 50  0001 C CNN
@@ -2660,10 +2599,10 @@ Wire Wire Line
 	4500 4050 4850 4050
 Connection ~ 4500 4050
 $Comp
-L Device:LED_Small D63
+L Device:LED_Small D2
 U 1 1 64D89A1C
 P 4500 4150
-F 0 "D63" V 4546 4080 50  0000 R CNN
+F 0 "D2" V 4546 4080 50  0000 R CNN
 F 1 "RED" V 4455 4080 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4500 4150 50  0001 C CNN
 F 3 "~" V 4500 4150 50  0001 C CNN
@@ -2671,10 +2610,10 @@ F 3 "~" V 4500 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR011
+L power:+3V3 #PWR016
 U 1 1 64D89A0A
 P 7000 4050
-F 0 "#PWR011" H 7000 3900 50  0001 C CNN
+F 0 "#PWR016" H 7000 3900 50  0001 C CNN
 F 1 "+3V3" H 7015 4223 50  0000 C CNN
 F 2 "" H 7000 4050 50  0001 C CNN
 F 3 "" H 7000 4050 50  0001 C CNN
@@ -2702,10 +2641,10 @@ NoConn ~ 1850 4450
 Wire Wire Line
 	1550 4700 1550 4650
 $Comp
-L power:GND #PWR01
+L power:GND #PWR02
 U 1 1 64D89A10
 P 1550 4700
-F 0 "#PWR01" H 1550 4450 50  0001 C CNN
+F 0 "#PWR02" H 1550 4450 50  0001 C CNN
 F 1 "GND" H 1555 4527 50  0000 C CNN
 F 2 "" H 1550 4700 50  0001 C CNN
 F 3 "" H 1550 4700 50  0001 C CNN
@@ -2713,10 +2652,10 @@ F 3 "" H 1550 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J5
+L Connector:USB_B_Micro J1
 U 1 1 64D899F3
 P 1550 4250
-F 0 "J5" H 1607 4717 50  0000 C CNN
+F 0 "J1" H 1607 4717 50  0000 C CNN
 F 1 "USB_B_Micro" H 1607 4626 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_HRO_U-F-M5SS-W-1" H 1700 4200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-U-F-M5SS-W-1_C145783.pdf" H 1700 4200 50  0001 C CNN
@@ -2775,10 +2714,10 @@ Wire Notes Line
 Wire Wire Line
 	6600 4450 6600 4350
 $Comp
-L Device:C_Small C8
+L Device:C_Small C9
 U 1 1 6CE53B65
 P 6600 4250
-F 0 "C8" H 6692 4296 50  0000 L CNN
+F 0 "C9" H 6692 4296 50  0000 L CNN
 F 1 "1u" H 6692 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6600 4250 50  0001 C CNN
 F 3 "~" H 6600 4250 50  0001 C CNN
@@ -2886,10 +2825,10 @@ Connection ~ 2550 9050
 Wire Wire Line
 	2450 9050 2550 9050
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR07
 U 1 1 665840DA
 P 3050 9050
-F 0 "#PWR0104" H 3050 8800 50  0001 C CNN
+F 0 "#PWR07" H 3050 8800 50  0001 C CNN
 F 1 "GND" H 3055 8877 50  0000 C CNN
 F 2 "" H 3050 9050 50  0001 C CNN
 F 3 "" H 3050 9050 50  0001 C CNN
@@ -2919,10 +2858,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 8450 3350 8450
 $Comp
-L MCU_ST_STM32F0:STM32F072C8Tx U2
+L MCU_ST_STM32F0:STM32F072C8Tx U1
 U 1 1 62383ECF
 P 2650 7550
-F 0 "U2" H 2600 5961 50  0000 C CNN
+F 0 "U1" H 2600 5961 50  0000 C CNN
 F 1 "STM32F072C8Tx" H 2600 5870 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2050 6150 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 2650 7550 50  0001 C CNN
@@ -2936,10 +2875,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 6000 2550 6050
 $Comp
-L power:+3V3 #PWR012
+L power:+3V3 #PWR05
 U 1 1 625CA272
 P 2450 5950
-F 0 "#PWR012" H 2450 5800 50  0001 C CNN
+F 0 "#PWR05" H 2450 5800 50  0001 C CNN
 F 1 "+3V3" H 2465 6123 50  0000 C CNN
 F 2 "" H 2450 5950 50  0001 C CNN
 F 3 "" H 2450 5950 50  0001 C CNN
@@ -2959,10 +2898,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 4350 3850 4400
 $Comp
-L Regulator_Linear:MCP1700-3302E_SOT89 U1
+L Regulator_Linear:MCP1700-3302E_SOT89 U2
 U 1 1 64D89A27
 P 3850 4050
-F 0 "U1" H 3850 4292 50  0000 C CNN
+F 0 "U2" H 3850 4292 50  0000 C CNN
 F 1 "MCP1700-3302E_SOT89" H 3850 4201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3850 4250 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 3850 4000 50  0001 C CNN
@@ -2992,10 +2931,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 4400 3850 4400
 $Comp
-L power:GND #PWR0112
+L power:GND #PWR039
 U 1 1 62364E63
 P 18750 4450
-F 0 "#PWR0112" H 18750 4200 50  0001 C CNN
+F 0 "#PWR039" H 18750 4200 50  0001 C CNN
 F 1 "GND" H 18755 4277 50  0000 C CNN
 F 2 "" H 18750 4450 50  0001 C CNN
 F 3 "" H 18750 4450 50  0001 C CNN
@@ -3043,10 +2982,10 @@ Wire Wire Line
 	20800 4350 20800 4450
 Connection ~ 20100 4450
 $Comp
-L Device:C_Small C16
+L Device:C_Small C17
 U 1 1 62364E81
 P 20100 4250
-F 0 "C16" H 20192 4296 50  0000 L CNN
+F 0 "C17" H 20192 4296 50  0000 L CNN
 F 1 "4u7" H 20192 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20100 4250 50  0001 C CNN
 F 3 "~" H 20100 4250 50  0001 C CNN
@@ -3054,10 +2993,10 @@ F 3 "~" H 20100 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C17
+L Device:C_Small C18
 U 1 1 62364E87
 P 20450 4250
-F 0 "C17" H 20542 4296 50  0000 L CNN
+F 0 "C18" H 20542 4296 50  0000 L CNN
 F 1 "100n" H 20542 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20450 4250 50  0001 C CNN
 F 3 "~" H 20450 4250 50  0001 C CNN
@@ -3065,10 +3004,10 @@ F 3 "~" H 20450 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C18
+L Device:C_Small C19
 U 1 1 62364E8D
 P 20800 4250
-F 0 "C18" H 20892 4296 50  0000 L CNN
+F 0 "C19" H 20892 4296 50  0000 L CNN
 F 1 "100n" H 20892 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 20800 4250 50  0001 C CNN
 F 3 "~" H 20800 4250 50  0001 C CNN
@@ -3076,10 +3015,10 @@ F 3 "~" H 20800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C19
+L Device:C_Small C20
 U 1 1 62364E93
 P 21150 4250
-F 0 "C19" H 21242 4296 50  0000 L CNN
+F 0 "C20" H 21242 4296 50  0000 L CNN
 F 1 "100n" H 21242 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 21150 4250 50  0001 C CNN
 F 3 "~" H 21150 4250 50  0001 C CNN
@@ -3087,10 +3026,10 @@ F 3 "~" H 21150 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C15
+L Device:C_Small C16
 U 1 1 62364E99
 P 19750 4250
-F 0 "C15" H 19842 4296 50  0000 L CNN
+F 0 "C16" H 19842 4296 50  0000 L CNN
 F 1 "4u7" H 19842 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 19750 4250 50  0001 C CNN
 F 3 "~" H 19750 4250 50  0001 C CNN
@@ -3105,10 +3044,10 @@ Wire Wire Line
 	19400 4050 19750 4050
 Connection ~ 19400 4050
 $Comp
-L Device:LED_Small D67
+L Device:LED_Small D76
 U 1 1 62364EA3
 P 19400 4150
-F 0 "D67" V 19446 4080 50  0000 R CNN
+F 0 "D76" V 19446 4080 50  0000 R CNN
 F 1 "RED" V 19355 4080 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 19400 4150 50  0001 C CNN
 F 3 "~" V 19400 4150 50  0001 C CNN
@@ -3116,10 +3055,10 @@ F 3 "~" V 19400 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR0113
+L power:+3V3 #PWR043
 U 1 1 62364EA9
 P 21900 4050
-F 0 "#PWR0113" H 21900 3900 50  0001 C CNN
+F 0 "#PWR043" H 21900 3900 50  0001 C CNN
 F 1 "+3V3" H 21915 4223 50  0000 C CNN
 F 2 "" H 21900 4050 50  0001 C CNN
 F 3 "" H 21900 4050 50  0001 C CNN
@@ -3127,10 +3066,10 @@ F 3 "" H 21900 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C14
+L Device:C_Small C15
 U 1 1 62364EAF
 P 19100 4200
-F 0 "C14" H 19192 4246 50  0000 L CNN
+F 0 "C15" H 19192 4246 50  0000 L CNN
 F 1 "1u" H 19192 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 19100 4200 50  0001 C CNN
 F 3 "~" H 19100 4200 50  0001 C CNN
@@ -3158,10 +3097,10 @@ F 3 "~" H 18000 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R8
+L Device:R_Small_US R27
 U 1 1 62364ED0
 P 19400 4350
-F 0 "R8" H 19468 4396 50  0000 L CNN
+F 0 "R27" H 19468 4396 50  0000 L CNN
 F 1 "1K" H 19468 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 19400 4350 50  0001 C CNN
 F 3 "~" H 19400 4350 50  0001 C CNN
@@ -3188,10 +3127,10 @@ Wire Wire Line
 Wire Wire Line
 	21500 4450 21500 4350
 $Comp
-L Device:C_Small C20
+L Device:C_Small C21
 U 1 1 62364EEB
 P 21500 4250
-F 0 "C20" H 21592 4296 50  0000 L CNN
+F 0 "C21" H 21592 4296 50  0000 L CNN
 F 1 "1u" H 21592 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 21500 4250 50  0001 C CNN
 F 3 "~" H 21500 4250 50  0001 C CNN
@@ -3213,10 +3152,10 @@ Wire Wire Line
 Wire Wire Line
 	21800 4350 21800 4450
 $Comp
-L Device:C_Small C21
+L Device:C_Small C22
 U 1 1 62364EF9
 P 21800 4250
-F 0 "C21" H 21892 4296 50  0000 L CNN
+F 0 "C22" H 21892 4296 50  0000 L CNN
 F 1 "10n" H 21892 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 21800 4250 50  0001 C CNN
 F 3 "~" H 21800 4250 50  0001 C CNN
@@ -3245,10 +3184,10 @@ $EndComp
 Wire Wire Line
 	18450 4050 18350 4050
 $Comp
-L Device:C_Small C13
+L Device:C_Small C14
 U 1 1 62364F1B
 P 18350 4200
-F 0 "C13" H 18442 4246 50  0000 L CNN
+F 0 "C14" H 18442 4246 50  0000 L CNN
 F 1 "1u" H 18442 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 18350 4200 50  0001 C CNN
 F 3 "~" H 18350 4200 50  0001 C CNN
@@ -3287,10 +3226,10 @@ F 3 "~" H 13850 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0116
+L power:GND #PWR029
 U 1 1 62567BC6
 P 13850 11050
-F 0 "#PWR0116" H 13850 10800 50  0001 C CNN
+F 0 "#PWR029" H 13850 10800 50  0001 C CNN
 F 1 "GND" H 13855 10877 50  0000 C CNN
 F 2 "" H 13850 11050 50  0001 C CNN
 F 3 "" H 13850 11050 50  0001 C CNN
@@ -3348,8 +3287,6 @@ Wire Wire Line
 Connection ~ 9750 11050
 Wire Wire Line
 	9750 11050 9750 11500
-Text GLabel 9750 10100 1    50   Input ~ 0
-L_COL8
 Wire Wire Line
 	10450 10600 10550 10600
 Wire Wire Line
@@ -3366,10 +3303,6 @@ Wire Wire Line
 	3250 8050 3350 8050
 Wire Wire Line
 	3250 7950 3350 7950
-Wire Wire Line
-	3250 7850 3350 7850
-Text GLabel 3350 7850 2    50   Input ~ 0
-L_COL8
 Text GLabel 12550 10400 0    50   Input ~ 0
 R_PTR_Z
 Wire Wire Line
@@ -3377,10 +3310,10 @@ Wire Wire Line
 Wire Wire Line
 	12750 10500 12700 10500
 $Comp
-L power:GND #PWR0107
+L power:GND #PWR026
 U 1 1 666CE3BA
 P 12700 10500
-F 0 "#PWR0107" H 12700 10250 50  0001 C CNN
+F 0 "#PWR026" H 12700 10250 50  0001 C CNN
 F 1 "GND" H 12622 10463 50  0000 R CNN
 F 2 "" H 12700 10500 50  0001 C CNN
 F 3 "" H 12700 10500 50  0001 C CNN
@@ -3392,10 +3325,10 @@ Wire Wire Line
 Text GLabel 13900 10750 2    50   Input ~ 0
 R_PTR_Y
 $Comp
-L power:+3V3 #PWR0108
+L power:+3V3 #PWR030
 U 1 1 668C096E
 P 14100 10650
-F 0 "#PWR0108" H 14100 10500 50  0001 C CNN
+F 0 "#PWR030" H 14100 10500 50  0001 C CNN
 F 1 "+3V3" H 14188 10687 50  0000 L CNN
 F 2 "" H 14100 10650 50  0001 C CNN
 F 3 "" H 14100 10650 50  0001 C CNN
@@ -3403,10 +3336,10 @@ F 3 "" H 14100 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0110
+L power:+3V3 #PWR020
 U 1 1 6695126D
 P 12400 10650
-F 0 "#PWR0110" H 12400 10500 50  0001 C CNN
+F 0 "#PWR020" H 12400 10500 50  0001 C CNN
 F 1 "+3V3" H 12342 10687 50  0000 R CNN
 F 2 "" H 12400 10650 50  0001 C CNN
 F 3 "" H 12400 10650 50  0001 C CNN
@@ -3420,10 +3353,10 @@ Wire Wire Line
 Wire Notes Line
 	3850 5650 3850 9450
 $Comp
-L Connector:TestPoint TP13
+L Connector:TestPoint TP9
 U 1 1 66DFAA16
 P 8350 13700
-F 0 "TP13" V 8304 13888 50  0000 L CNN
+F 0 "TP9" V 8304 13888 50  0000 L CNN
 F 1 "TestPoint" V 8395 13888 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8550 13700 50  0001 C CNN
 F 3 "~" H 8550 13700 50  0001 C CNN
@@ -3435,10 +3368,10 @@ Wire Wire Line
 Text GLabel 8250 13700 0    50   Input ~ 0
 L_COL8
 $Comp
-L Connector:TestPoint TP16
+L Connector:TestPoint TP17
 U 1 1 66E432B7
 P 10600 13050
-F 0 "TP16" V 10554 13238 50  0000 L CNN
+F 0 "TP17" V 10554 13238 50  0000 L CNN
 F 1 "TestPoint" V 10645 13238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10800 13050 50  0001 C CNN
 F 3 "~" H 10800 13050 50  0001 C CNN
@@ -3446,10 +3379,10 @@ F 3 "~" H 10800 13050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L Connector:TestPoint TP18
 U 1 1 66E432BD
 P 10600 13200
-F 0 "TP17" V 10554 13388 50  0000 L CNN
+F 0 "TP18" V 10554 13388 50  0000 L CNN
 F 1 "TestPoint" V 10645 13388 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10800 13200 50  0001 C CNN
 F 3 "~" H 10800 13200 50  0001 C CNN
@@ -3457,10 +3390,10 @@ F 3 "~" H 10800 13200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L Connector:TestPoint TP19
 U 1 1 66E432C3
 P 10600 13350
-F 0 "TP18" V 10554 13538 50  0000 L CNN
+F 0 "TP19" V 10554 13538 50  0000 L CNN
 F 1 "TestPoint" V 10645 13538 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10800 13350 50  0001 C CNN
 F 3 "~" H 10800 13350 50  0001 C CNN
@@ -3498,10 +3431,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 12950 6050 12950
 $Comp
-L power:GND #PWR0111
+L power:GND #PWR015
 U 1 1 636BCB69
 P 6700 13650
-F 0 "#PWR0111" H 6700 13400 50  0001 C CNN
+F 0 "#PWR015" H 6700 13400 50  0001 C CNN
 F 1 "GND" H 6622 13613 50  0000 R CNN
 F 2 "" H 6700 13650 50  0001 C CNN
 F 3 "" H 6700 13650 50  0001 C CNN
@@ -3516,10 +3449,10 @@ Connection ~ 4950 13150
 Wire Wire Line
 	4950 13500 4950 13450
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR012
 U 1 1 66FD37B1
 P 4950 13500
-F 0 "#PWR0105" H 4950 13250 50  0001 C CNN
+F 0 "#PWR012" H 4950 13250 50  0001 C CNN
 F 1 "GND" H 4955 13327 50  0000 C CNN
 F 2 "" H 4950 13500 50  0001 C CNN
 F 3 "" H 4950 13500 50  0001 C CNN
@@ -3527,10 +3460,10 @@ F 3 "" H 4950 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C9
+L Device:C_Small C4
 U 1 1 66FD19E9
 P 4950 13350
-F 0 "C9" H 5042 13396 50  0000 L CNN
+F 0 "C4" H 5042 13396 50  0000 L CNN
 F 1 "100n" H 5042 13305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4950 13350 50  0001 C CNN
 F 3 "~" H 4950 13350 50  0001 C CNN
@@ -3540,10 +3473,10 @@ $EndComp
 Wire Wire Line
 	4850 13150 4950 13150
 $Comp
-L power:GND #PWR02
+L power:GND #PWR011
 U 1 1 624CE039
 P 4400 13200
-F 0 "#PWR02" H 4400 12950 50  0001 C CNN
+F 0 "#PWR011" H 4400 12950 50  0001 C CNN
 F 1 "GND" H 4488 13163 50  0000 L CNN
 F 2 "" H 4400 13200 50  0001 C CNN
 F 3 "" H 4400 13200 50  0001 C CNN
@@ -3566,10 +3499,10 @@ $EndComp
 Wire Wire Line
 	4950 13150 4950 13250
 $Comp
-L Device:R_Small_US R1
+L Device:R_Small_US R3
 U 1 1 696F5316
 P 4200 6100
-F 0 "R1" H 4268 6146 50  0000 L CNN
+F 0 "R3" H 4268 6146 50  0000 L CNN
 F 1 "470R" H 4268 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4200 6100 50  0001 C CNN
 F 3 "~" H 4200 6100 50  0001 C CNN
@@ -3581,10 +3514,10 @@ Wire Wire Line
 Wire Notes Line
 	4050 5550 4050 9600
 $Comp
-L Device:R_Small_US R9
+L Device:R_Small_US R5
 U 1 1 698AD7B3
 P 5000 6100
-F 0 "R9" H 5068 6146 50  0000 L CNN
+F 0 "R5" H 5068 6146 50  0000 L CNN
 F 1 "470R" H 5068 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5000 6100 50  0001 C CNN
 F 3 "~" H 5000 6100 50  0001 C CNN
@@ -3594,10 +3527,10 @@ $EndComp
 Wire Wire Line
 	5000 5900 5000 6000
 $Comp
-L Device:R_Small_US R10
+L Device:R_Small_US R6
 U 1 1 698F511C
 P 5850 6100
-F 0 "R10" H 5918 6146 50  0000 L CNN
+F 0 "R6" H 5918 6146 50  0000 L CNN
 F 1 "470R" H 5918 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5850 6100 50  0001 C CNN
 F 3 "~" H 5850 6100 50  0001 C CNN
@@ -3607,10 +3540,10 @@ $EndComp
 Wire Wire Line
 	5850 5900 5850 6000
 $Comp
-L Device:R_Small_US R11
+L Device:R_Small_US R8
 U 1 1 6993CE3B
 P 6900 6100
-F 0 "R11" H 6968 6146 50  0000 L CNN
+F 0 "R8" H 6968 6146 50  0000 L CNN
 F 1 "470R" H 6968 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6900 6100 50  0001 C CNN
 F 3 "~" H 6900 6100 50  0001 C CNN
@@ -3620,10 +3553,10 @@ $EndComp
 Wire Wire Line
 	6900 5900 6900 6000
 $Comp
-L Device:R_Small_US R12
+L Device:R_Small_US R9
 U 1 1 6998509A
 P 7900 6100
-F 0 "R12" H 7968 6146 50  0000 L CNN
+F 0 "R9" H 7968 6146 50  0000 L CNN
 F 1 "470R" H 7968 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7900 6100 50  0001 C CNN
 F 3 "~" H 7900 6100 50  0001 C CNN
@@ -3633,10 +3566,10 @@ $EndComp
 Wire Wire Line
 	7900 5900 7900 6000
 $Comp
-L Device:R_Small_US R13
+L Device:R_Small_US R10
 U 1 1 699CD5A9
 P 8800 6100
-F 0 "R13" H 8868 6146 50  0000 L CNN
+F 0 "R10" H 8868 6146 50  0000 L CNN
 F 1 "470R" H 8868 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8800 6100 50  0001 C CNN
 F 3 "~" H 8800 6100 50  0001 C CNN
@@ -3646,10 +3579,10 @@ $EndComp
 Wire Wire Line
 	8800 5900 8800 6000
 $Comp
-L Device:R_Small_US R15
+L Device:R_Small_US R12
 U 1 1 69A15FDD
 P 9800 6100
-F 0 "R15" H 9868 6146 50  0000 L CNN
+F 0 "R12" H 9868 6146 50  0000 L CNN
 F 1 "470R" H 9868 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9800 6100 50  0001 C CNN
 F 3 "~" H 9800 6100 50  0001 C CNN
@@ -3661,10 +3594,10 @@ Wire Wire Line
 Wire Wire Line
 	9750 10350 9750 10600
 $Comp
-L Device:R_Small_US R14
+L Device:R_Small_US R11
 U 1 1 69AA994D
 P 9750 10250
-F 0 "R14" H 9818 10296 50  0000 L CNN
+F 0 "R11" H 9818 10296 50  0000 L CNN
 F 1 "470R" H 9818 10205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9750 10250 50  0001 C CNN
 F 3 "~" H 9750 10250 50  0001 C CNN
@@ -3672,10 +3605,10 @@ F 3 "~" H 9750 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S63
+L kailh_hotplug_mx_plate:Kailh_Hotplug S27
 U 1 1 6A67B7A9
 P 9950 10700
-F 0 "S63" H 9950 10950 50  0000 C CNN
+F 0 "S27" H 9950 10950 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 9950 10650 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 10000 11050 50  0001 C CNN
 F 3 "" H 9950 10950 50  0001 C CNN
@@ -3705,10 +3638,10 @@ Wire Wire Line
 Wire Wire Line
 	19100 5900 19100 6000
 $Comp
-L Device:R_Small_US R17
+L Device:R_Small_US R13
 U 1 1 69EDB020
 P 13500 6100
-F 0 "R17" H 13568 6146 50  0000 L CNN
+F 0 "R13" H 13568 6146 50  0000 L CNN
 F 1 "470R" H 13568 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 13500 6100 50  0001 C CNN
 F 3 "~" H 13500 6100 50  0001 C CNN
@@ -3716,10 +3649,10 @@ F 3 "~" H 13500 6100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R18
+L Device:R_Small_US R15
 U 1 1 69EDB01A
 P 14500 6100
-F 0 "R18" H 14568 6146 50  0000 L CNN
+F 0 "R15" H 14568 6146 50  0000 L CNN
 F 1 "470R" H 14568 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 14500 6100 50  0001 C CNN
 F 3 "~" H 14500 6100 50  0001 C CNN
@@ -3727,10 +3660,10 @@ F 3 "~" H 14500 6100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R22
+L Device:R_Small_US R19
 U 1 1 69EDB014
 P 15400 6100
-F 0 "R22" H 15468 6146 50  0000 L CNN
+F 0 "R19" H 15468 6146 50  0000 L CNN
 F 1 "470R" H 15468 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 15400 6100 50  0001 C CNN
 F 3 "~" H 15400 6100 50  0001 C CNN
@@ -3738,10 +3671,10 @@ F 3 "~" H 15400 6100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R24
+L Device:R_Small_US R20
 U 1 1 69EDB00E
 P 16400 6100
-F 0 "R24" H 16468 6146 50  0000 L CNN
+F 0 "R20" H 16468 6146 50  0000 L CNN
 F 1 "470R" H 16468 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 16400 6100 50  0001 C CNN
 F 3 "~" H 16400 6100 50  0001 C CNN
@@ -3749,10 +3682,10 @@ F 3 "~" H 16400 6100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R26
+L Device:R_Small_US R24
 U 1 1 69EDB008
 P 17450 6100
-F 0 "R26" H 17518 6146 50  0000 L CNN
+F 0 "R24" H 17518 6146 50  0000 L CNN
 F 1 "470R" H 17518 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 17450 6100 50  0001 C CNN
 F 3 "~" H 17450 6100 50  0001 C CNN
@@ -3760,10 +3693,10 @@ F 3 "~" H 17450 6100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R27
+L Device:R_Small_US R25
 U 1 1 69EDB002
 P 18300 6100
-F 0 "R27" H 18368 6146 50  0000 L CNN
+F 0 "R25" H 18368 6146 50  0000 L CNN
 F 1 "470R" H 18368 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 18300 6100 50  0001 C CNN
 F 3 "~" H 18300 6100 50  0001 C CNN
@@ -3771,10 +3704,10 @@ F 3 "~" H 18300 6100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R28
+L Device:R_Small_US R26
 U 1 1 69EDAFFC
 P 19100 6100
-F 0 "R28" H 19168 6146 50  0000 L CNN
+F 0 "R26" H 19168 6146 50  0000 L CNN
 F 1 "470R" H 19168 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 19100 6100 50  0001 C CNN
 F 3 "~" H 19100 6100 50  0001 C CNN
@@ -3782,10 +3715,10 @@ F 3 "~" H 19100 6100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R2
+L Device:R_Small_US R7
 U 1 1 62497DE3
 P 6700 13500
-F 0 "R2" H 6768 13546 50  0000 L CNN
+F 0 "R7" H 6768 13546 50  0000 L CNN
 F 1 "10K" H 6768 13455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6700 13500 50  0001 C CNN
 F 3 "~" H 6700 13500 50  0001 C CNN
@@ -3803,10 +3736,10 @@ Wire Wire Line
 Wire Wire Line
 	6650 13350 6800 13350
 $Comp
-L Connector_Generic:Conn_01x04 J6
+L Connector_Generic:Conn_01x04 J3
 U 1 1 62A5BA56
 P 3500 13100
-F 0 "J6" H 3580 13092 50  0000 L CNN
+F 0 "J3" H 3580 13092 50  0000 L CNN
 F 1 "Conn_01x04" H 3580 13001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3500 13100 50  0001 C CNN
 F 3 "~" H 3500 13100 50  0001 C CNN
@@ -3814,10 +3747,10 @@ F 3 "~" H 3500 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR06
+L power:+3V3 #PWR08
 U 1 1 62A610B5
 P 3200 13000
-F 0 "#PWR06" H 3200 12850 50  0001 C CNN
+F 0 "#PWR08" H 3200 12850 50  0001 C CNN
 F 1 "+3V3" H 3215 13173 50  0000 C CNN
 F 2 "" H 3200 13000 50  0001 C CNN
 F 3 "" H 3200 13000 50  0001 C CNN
@@ -3825,10 +3758,10 @@ F 3 "" H 3200 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L power:GND #PWR09
 U 1 1 62A62EF9
 P 3200 13300
-F 0 "#PWR07" H 3200 13050 50  0001 C CNN
+F 0 "#PWR09" H 3200 13050 50  0001 C CNN
 F 1 "GND" H 3205 13127 50  0000 C CNN
 F 2 "" H 3200 13300 50  0001 C CNN
 F 3 "" H 3200 13300 50  0001 C CNN
@@ -3848,10 +3781,10 @@ SWD
 Wire Notes Line
 	1500 13950 1500 12450
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L Connector_Generic:Conn_01x04 J2
 U 1 1 6A588EA1
 P 2200 13100
-F 0 "J1" H 2280 13092 50  0000 L CNN
+F 0 "J2" H 2280 13092 50  0000 L CNN
 F 1 "Conn_01x04" H 2280 13001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 2200 13100 50  0001 C CNN
 F 3 "~" H 2200 13100 50  0001 C CNN
@@ -3859,10 +3792,10 @@ F 3 "~" H 2200 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0117
+L power:+3V3 #PWR03
 U 1 1 6A588EA7
 P 1900 13000
-F 0 "#PWR0117" H 1900 12850 50  0001 C CNN
+F 0 "#PWR03" H 1900 12850 50  0001 C CNN
 F 1 "+3V3" H 1915 13173 50  0000 C CNN
 F 2 "" H 1900 13000 50  0001 C CNN
 F 3 "" H 1900 13000 50  0001 C CNN
@@ -3870,10 +3803,10 @@ F 3 "" H 1900 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L power:GND #PWR04
 U 1 1 6A588EAD
 P 1900 13300
-F 0 "#PWR0118" H 1900 13050 50  0001 C CNN
+F 0 "#PWR04" H 1900 13050 50  0001 C CNN
 F 1 "GND" H 1905 13127 50  0000 C CNN
 F 2 "" H 1900 13300 50  0001 C CNN
 F 3 "" H 1900 13300 50  0001 C CNN
@@ -3902,10 +3835,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 12800 6000 12950
 $Comp
-L power:+3V3 #PWR0119
+L power:+3V3 #PWR013
 U 1 1 6AAD6322
 P 6000 12800
-F 0 "#PWR0119" H 6000 12650 50  0001 C CNN
+F 0 "#PWR013" H 6000 12650 50  0001 C CNN
 F 1 "+3V3" H 6088 12837 50  0000 L CNN
 F 2 "" H 6000 12800 50  0001 C CNN
 F 3 "" H 6000 12800 50  0001 C CNN
@@ -3913,10 +3846,10 @@ F 3 "" H 6000 12800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR014
 U 1 1 6AB1CEAC
 P 6000 13450
-F 0 "#PWR0120" H 6000 13200 50  0001 C CNN
+F 0 "#PWR014" H 6000 13200 50  0001 C CNN
 F 1 "GND" H 6005 13277 50  0000 C CNN
 F 2 "" H 6000 13450 50  0001 C CNN
 F 3 "" H 6000 13450 50  0001 C CNN
@@ -3949,10 +3882,10 @@ Connection ~ 7900 11250
 Wire Wire Line
 	7900 11250 7900 11500
 $Comp
-L power:GND #PWR0121
+L power:GND #PWR017
 U 1 1 61E52405
 P 7900 11500
-F 0 "#PWR0121" H 7900 11250 50  0001 C CNN
+F 0 "#PWR017" H 7900 11250 50  0001 C CNN
 F 1 "GND" H 7905 11327 50  0000 C CNN
 F 2 "" H 7900 11500 50  0001 C CNN
 F 3 "" H 7900 11500 50  0001 C CNN
@@ -3996,10 +3929,10 @@ Text GLabel 5100 13150 2    50   Input ~ 0
 Text GLabel 1850 6250 0    50   Input ~ 0
 ~RST
 $Comp
-L power:GND #PWR0122
+L power:GND #PWR022
 U 1 1 62DB9CA8
 P 12500 4400
-F 0 "#PWR0122" H 12500 4150 50  0001 C CNN
+F 0 "#PWR022" H 12500 4150 50  0001 C CNN
 F 1 "GND" H 12505 4227 50  0000 C CNN
 F 2 "" H 12500 4400 50  0001 C CNN
 F 3 "" H 12500 4400 50  0001 C CNN
@@ -4011,10 +3944,10 @@ R_RX
 Wire Wire Line
 	13200 4300 13300 4300
 $Comp
-L power:+5V #PWR0123
+L power:+5V #PWR021
 U 1 1 62DB9CB0
 P 12500 4250
-F 0 "#PWR0123" H 12500 4100 50  0001 C CNN
+F 0 "#PWR021" H 12500 4100 50  0001 C CNN
 F 1 "+5V" H 12515 4423 50  0000 C CNN
 F 2 "" H 12500 4250 50  0001 C CNN
 F 3 "" H 12500 4250 50  0001 C CNN
@@ -4070,10 +4003,10 @@ Wire Notes Line
 Wire Wire Line
 	1300 8250 1950 8250
 $Comp
-L power:+3V3 #PWR0124
+L power:+3V3 #PWR01
 U 1 1 63B4F3B8
 P 1300 7800
-F 0 "#PWR0124" H 1300 7650 50  0001 C CNN
+F 0 "#PWR01" H 1300 7650 50  0001 C CNN
 F 1 "+3V3" H 1315 7973 50  0000 C CNN
 F 2 "" H 1300 7800 50  0001 C CNN
 F 3 "" H 1300 7800 50  0001 C CNN
@@ -4156,10 +4089,10 @@ Connection ~ 20850 9050
 Wire Wire Line
 	20750 9050 20850 9050
 $Comp
-L power:GND #PWR0125
+L power:GND #PWR042
 U 1 1 63C8C82D
 P 21350 9050
-F 0 "#PWR0125" H 21350 8800 50  0001 C CNN
+F 0 "#PWR042" H 21350 8800 50  0001 C CNN
 F 1 "GND" H 21355 8877 50  0000 C CNN
 F 2 "" H 21350 9050 50  0001 C CNN
 F 3 "" H 21350 9050 50  0001 C CNN
@@ -4206,10 +4139,10 @@ Wire Wire Line
 Wire Wire Line
 	20850 6000 20850 6050
 $Comp
-L power:+3V3 #PWR0126
+L power:+3V3 #PWR041
 U 1 1 63C8C847
 P 20750 5950
-F 0 "#PWR0126" H 20750 5800 50  0001 C CNN
+F 0 "#PWR041" H 20750 5800 50  0001 C CNN
 F 1 "+3V3" H 20765 6123 50  0000 C CNN
 F 2 "" H 20750 5950 50  0001 C CNN
 F 3 "" H 20750 5950 50  0001 C CNN
@@ -4279,10 +4212,10 @@ Wire Wire Line
 Text Label 19600 8250 3    50   ~ 0
 R_HAND_SET
 $Comp
-L power:GND #PWR0127
+L power:GND #PWR040
 U 1 1 63DE327E
 P 19600 8700
-F 0 "#PWR0127" H 19600 8450 50  0001 C CNN
+F 0 "#PWR040" H 19600 8450 50  0001 C CNN
 F 1 "GND" H 19605 8527 50  0000 C CNN
 F 2 "" H 19600 8700 50  0001 C CNN
 F 3 "" H 19600 8700 50  0001 C CNN
@@ -4298,10 +4231,10 @@ Wire Notes Line
 Wire Notes Line
 	12100 5550 12100 11900
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S69
+L kailh_hotplug_mx_plate:Kailh_Hotplug S46
 U 1 1 63EFD4D4
 P 14700 11600
-F 0 "S69" H 14700 11850 50  0000 C CNN
+F 0 "S46" H 14700 11850 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14700 11550 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14750 11950 50  0001 C CNN
 F 3 "" H 14700 11850 50  0001 C CNN
@@ -4309,10 +4242,10 @@ F 3 "" H 14700 11850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D71
+L Diode:1N4148 D54
 U 1 1 63EFD4DA
 P 15050 11500
-F 0 "D71" H 15050 11600 50  0000 C CNN
+F 0 "D54" H 15050 11600 50  0000 C CNN
 F 1 "1N4148" H 15050 11400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15050 11325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15050 11500 50  0001 C CNN
@@ -4320,10 +4253,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S68
+L kailh_hotplug_mx_plate:Kailh_Hotplug S45
 U 1 1 63EFD4E0
 P 14700 11150
-F 0 "S68" H 14700 11400 50  0000 C CNN
+F 0 "S45" H 14700 11400 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14700 11100 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14750 11500 50  0001 C CNN
 F 3 "" H 14700 11400 50  0001 C CNN
@@ -4331,10 +4264,10 @@ F 3 "" H 14700 11400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D70
+L Diode:1N4148 D53
 U 1 1 63EFD4E6
 P 15050 11050
-F 0 "D70" H 15050 11150 50  0000 C CNN
+F 0 "D53" H 15050 11150 50  0000 C CNN
 F 1 "1N4148" H 15050 10950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15050 10875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15050 11050 50  0001 C CNN
@@ -4342,10 +4275,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D69
+L Diode:1N4148 D52
 U 1 1 63EFD4EC
 P 15050 10600
-F 0 "D69" H 15050 10700 50  0000 C CNN
+F 0 "D52" H 15050 10700 50  0000 C CNN
 F 1 "1N4148" H 15050 10500 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 15050 10425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 15050 10600 50  0001 C CNN
@@ -4375,10 +4308,10 @@ R_ROW3
 Wire Wire Line
 	14500 10350 14500 10600
 $Comp
-L Device:R_Small_US R19
+L Device:R_Small_US R16
 U 1 1 63EFD4FE
 P 14500 10250
-F 0 "R19" H 14568 10296 50  0000 L CNN
+F 0 "R16" H 14568 10296 50  0000 L CNN
 F 1 "470R" H 14568 10205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 14500 10250 50  0001 C CNN
 F 3 "~" H 14500 10250 50  0001 C CNN
@@ -4386,10 +4319,10 @@ F 3 "~" H 14500 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_hotplug_mx_plate:Kailh_Hotplug S67
+L kailh_hotplug_mx_plate:Kailh_Hotplug S44
 U 1 1 63EFD504
 P 14700 10700
-F 0 "S67" H 14700 10950 50  0000 C CNN
+F 0 "S44" H 14700 10950 50  0000 C CNN
 F 1 "Kailh_Hotplug" H 14700 10650 50  0000 C CNN
 F 2 "keyswitches:Kailh_socket_MX_platemount" H 14750 11050 50  0001 C CNN
 F 3 "" H 14700 10950 50  0001 C CNN
@@ -4399,10 +4332,10 @@ $EndComp
 Wire Wire Line
 	14500 10100 14500 10150
 $Comp
-L Connector:TestPoint TP19
+L Connector:TestPoint TP20
 U 1 1 640B804A
 P 10600 13500
-F 0 "TP19" V 10554 13688 50  0000 L CNN
+F 0 "TP20" V 10554 13688 50  0000 L CNN
 F 1 "TestPoint" V 10645 13688 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10800 13500 50  0001 C CNN
 F 3 "~" H 10800 13500 50  0001 C CNN
@@ -4410,10 +4343,10 @@ F 3 "~" H 10800 13500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP20
+L Connector:TestPoint TP21
 U 1 1 640B8050
 P 10600 13650
-F 0 "TP20" V 10554 13838 50  0000 L CNN
+F 0 "TP21" V 10554 13838 50  0000 L CNN
 F 1 "TestPoint" V 10645 13838 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10800 13650 50  0001 C CNN
 F 3 "~" H 10800 13650 50  0001 C CNN
@@ -4421,10 +4354,10 @@ F 3 "~" H 10800 13650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP15
 U 1 1 640B8056
 P 10600 12750
-F 0 "TP14" V 10554 12938 50  0000 L CNN
+F 0 "TP15" V 10554 12938 50  0000 L CNN
 F 1 "TestPoint" V 10645 12938 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10800 12750 50  0001 C CNN
 F 3 "~" H 10800 12750 50  0001 C CNN
@@ -4438,10 +4371,10 @@ L_ENC_LF
 Text GLabel 10600 12750 0    50   Input ~ 0
 L_ENC_A
 $Comp
-L Connector:TestPoint TP15
+L Connector:TestPoint TP16
 U 1 1 6410EDE1
 P 10600 12900
-F 0 "TP15" V 10554 13088 50  0000 L CNN
+F 0 "TP16" V 10554 13088 50  0000 L CNN
 F 1 "TestPoint" V 10645 13088 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10800 12900 50  0001 C CNN
 F 3 "~" H 10800 12900 50  0001 C CNN
@@ -4465,10 +4398,10 @@ Wire Notes Line
 Wire Notes Line
 	13450 13950 13450 12450
 $Comp
-L Connector:TestPoint TP33
+L Connector:TestPoint TP35
 U 1 1 64ABCDF6
 P 20100 13500
-F 0 "TP33" V 20054 13688 50  0000 L CNN
+F 0 "TP35" V 20054 13688 50  0000 L CNN
 F 1 "TestPoint" V 20145 13688 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 20300 13500 50  0001 C CNN
 F 3 "~" H 20300 13500 50  0001 C CNN
@@ -4476,10 +4409,10 @@ F 3 "~" H 20300 13500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP29
+L Connector:TestPoint TP31
 U 1 1 64ABCDFC
 P 20100 12900
-F 0 "TP29" V 20054 13088 50  0000 L CNN
+F 0 "TP31" V 20054 13088 50  0000 L CNN
 F 1 "TestPoint" V 20145 13088 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 20300 12900 50  0001 C CNN
 F 3 "~" H 20300 12900 50  0001 C CNN
@@ -4487,10 +4420,10 @@ F 3 "~" H 20300 12900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP30
+L Connector:TestPoint TP32
 U 1 1 64ABCE02
 P 20100 13050
-F 0 "TP30" V 20054 13238 50  0000 L CNN
+F 0 "TP32" V 20054 13238 50  0000 L CNN
 F 1 "TestPoint" V 20145 13238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 20300 13050 50  0001 C CNN
 F 3 "~" H 20300 13050 50  0001 C CNN
@@ -4498,10 +4431,10 @@ F 3 "~" H 20300 13050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP31
+L Connector:TestPoint TP33
 U 1 1 64ABCE08
 P 20100 13200
-F 0 "TP31" V 20054 13388 50  0000 L CNN
+F 0 "TP33" V 20054 13388 50  0000 L CNN
 F 1 "TestPoint" V 20145 13388 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 20300 13200 50  0001 C CNN
 F 3 "~" H 20300 13200 50  0001 C CNN
@@ -4509,10 +4442,10 @@ F 3 "~" H 20300 13200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP32
+L Connector:TestPoint TP34
 U 1 1 64ABCE0E
 P 20100 13350
-F 0 "TP32" V 20054 13538 50  0000 L CNN
+F 0 "TP34" V 20054 13538 50  0000 L CNN
 F 1 "TestPoint" V 20145 13538 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 20300 13350 50  0001 C CNN
 F 3 "~" H 20300 13350 50  0001 C CNN
@@ -4520,10 +4453,10 @@ F 3 "~" H 20300 13350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP21
+L Connector:TestPoint TP23
 U 1 1 64ABCE14
 P 18950 12650
-F 0 "TP21" V 18904 12838 50  0000 L CNN
+F 0 "TP23" V 18904 12838 50  0000 L CNN
 F 1 "TestPoint" V 18995 12838 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 12650 50  0001 C CNN
 F 3 "~" H 19150 12650 50  0001 C CNN
@@ -4531,10 +4464,10 @@ F 3 "~" H 19150 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP22
+L Connector:TestPoint TP24
 U 1 1 64ABCE1A
 P 18950 12800
-F 0 "TP22" V 18904 12988 50  0000 L CNN
+F 0 "TP24" V 18904 12988 50  0000 L CNN
 F 1 "TestPoint" V 18995 12988 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 12800 50  0001 C CNN
 F 3 "~" H 19150 12800 50  0001 C CNN
@@ -4542,10 +4475,10 @@ F 3 "~" H 19150 12800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP23
+L Connector:TestPoint TP25
 U 1 1 64ABCE20
 P 18950 12950
-F 0 "TP23" V 18904 13138 50  0000 L CNN
+F 0 "TP25" V 18904 13138 50  0000 L CNN
 F 1 "TestPoint" V 18995 13138 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 12950 50  0001 C CNN
 F 3 "~" H 19150 12950 50  0001 C CNN
@@ -4553,10 +4486,10 @@ F 3 "~" H 19150 12950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP24
+L Connector:TestPoint TP26
 U 1 1 64ABCE26
 P 18950 13100
-F 0 "TP24" V 18904 13288 50  0000 L CNN
+F 0 "TP26" V 18904 13288 50  0000 L CNN
 F 1 "TestPoint" V 18995 13288 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 13100 50  0001 C CNN
 F 3 "~" H 19150 13100 50  0001 C CNN
@@ -4564,10 +4497,10 @@ F 3 "~" H 19150 13100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP25
+L Connector:TestPoint TP27
 U 1 1 64ABCE2C
 P 18950 13250
-F 0 "TP25" V 18904 13438 50  0000 L CNN
+F 0 "TP27" V 18904 13438 50  0000 L CNN
 F 1 "TestPoint" V 18995 13438 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 13250 50  0001 C CNN
 F 3 "~" H 19150 13250 50  0001 C CNN
@@ -4575,10 +4508,10 @@ F 3 "~" H 19150 13250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP26
+L Connector:TestPoint TP28
 U 1 1 64ABCE32
 P 18950 13400
-F 0 "TP26" V 18904 13588 50  0000 L CNN
+F 0 "TP28" V 18904 13588 50  0000 L CNN
 F 1 "TestPoint" V 18995 13588 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 13400 50  0001 C CNN
 F 3 "~" H 19150 13400 50  0001 C CNN
@@ -4586,10 +4519,10 @@ F 3 "~" H 19150 13400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP27
+L Connector:TestPoint TP29
 U 1 1 64ABCE38
 P 18950 13550
-F 0 "TP27" V 18904 13738 50  0000 L CNN
+F 0 "TP29" V 18904 13738 50  0000 L CNN
 F 1 "TestPoint" V 18995 13738 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 13550 50  0001 C CNN
 F 3 "~" H 19150 13550 50  0001 C CNN
@@ -4676,10 +4609,10 @@ Wire Wire Line
 Wire Wire Line
 	16600 13150 16650 13150
 $Comp
-L Connector:TestPoint TP28
+L Connector:TestPoint TP30
 U 1 1 64ABCE67
 P 18950 13700
-F 0 "TP28" V 18904 13888 50  0000 L CNN
+F 0 "TP30" V 18904 13888 50  0000 L CNN
 F 1 "TestPoint" V 18995 13888 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19150 13700 50  0001 C CNN
 F 3 "~" H 19150 13700 50  0001 C CNN
@@ -4691,10 +4624,10 @@ Wire Wire Line
 Text GLabel 18850 13700 0    50   Input ~ 0
 R_COL8
 $Comp
-L Connector:TestPoint TP36
+L Connector:TestPoint TP38
 U 1 1 64ABCE6F
 P 21200 13350
-F 0 "TP36" V 21154 13538 50  0000 L CNN
+F 0 "TP38" V 21154 13538 50  0000 L CNN
 F 1 "TestPoint" V 21245 13538 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 21400 13350 50  0001 C CNN
 F 3 "~" H 21400 13350 50  0001 C CNN
@@ -4708,10 +4641,10 @@ Wire Wire Line
 Wire Wire Line
 	16600 12950 16650 12950
 $Comp
-L power:GND #PWR0128
+L power:GND #PWR037
 U 1 1 64ABCE87
 P 17300 13650
-F 0 "#PWR0128" H 17300 13400 50  0001 C CNN
+F 0 "#PWR037" H 17300 13400 50  0001 C CNN
 F 1 "GND" H 17222 13613 50  0000 R CNN
 F 2 "" H 17300 13650 50  0001 C CNN
 F 3 "" H 17300 13650 50  0001 C CNN
@@ -4726,10 +4659,10 @@ Connection ~ 15550 13150
 Wire Wire Line
 	15550 13500 15550 13450
 $Comp
-L power:GND #PWR0129
+L power:GND #PWR033
 U 1 1 64ABCE91
 P 15550 13500
-F 0 "#PWR0129" H 15550 13250 50  0001 C CNN
+F 0 "#PWR033" H 15550 13250 50  0001 C CNN
 F 1 "GND" H 15555 13327 50  0000 C CNN
 F 2 "" H 15550 13500 50  0001 C CNN
 F 3 "" H 15550 13500 50  0001 C CNN
@@ -4737,10 +4670,10 @@ F 3 "" H 15550 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C22
+L Device:C_Small C13
 U 1 1 64ABCE97
 P 15550 13350
-F 0 "C22" H 15642 13396 50  0000 L CNN
+F 0 "C13" H 15642 13396 50  0000 L CNN
 F 1 "100n" H 15642 13305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15550 13350 50  0001 C CNN
 F 3 "~" H 15550 13350 50  0001 C CNN
@@ -4750,10 +4683,10 @@ $EndComp
 Wire Wire Line
 	15450 13150 15550 13150
 $Comp
-L power:GND #PWR0130
+L power:GND #PWR032
 U 1 1 64ABCE9E
 P 15000 13200
-F 0 "#PWR0130" H 15000 12950 50  0001 C CNN
+F 0 "#PWR032" H 15000 12950 50  0001 C CNN
 F 1 "GND" H 15088 13163 50  0000 L CNN
 F 2 "" H 15000 13200 50  0001 C CNN
 F 3 "" H 15000 13200 50  0001 C CNN
@@ -4776,10 +4709,10 @@ $EndComp
 Wire Wire Line
 	15550 13150 15550 13250
 $Comp
-L Device:R_Small_US R25
+L Device:R_Small_US R23
 U 1 1 64ABCEAC
 P 17300 13500
-F 0 "R25" H 17368 13546 50  0000 L CNN
+F 0 "R23" H 17368 13546 50  0000 L CNN
 F 1 "10K" H 17368 13455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 17300 13500 50  0001 C CNN
 F 3 "~" H 17300 13500 50  0001 C CNN
@@ -4797,10 +4730,10 @@ Wire Wire Line
 Wire Wire Line
 	17250 13350 17400 13350
 $Comp
-L Connector_Generic:Conn_01x04 J8
+L Connector_Generic:Conn_01x04 J7
 U 1 1 64ABCEB7
 P 14100 13100
-F 0 "J8" H 14180 13092 50  0000 L CNN
+F 0 "J7" H 14180 13092 50  0000 L CNN
 F 1 "Conn_01x04" H 14180 13001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 14100 13100 50  0001 C CNN
 F 3 "~" H 14100 13100 50  0001 C CNN
@@ -4808,10 +4741,10 @@ F 3 "~" H 14100 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0131
+L power:+3V3 #PWR027
 U 1 1 64ABCEBD
 P 13800 13000
-F 0 "#PWR0131" H 13800 12850 50  0001 C CNN
+F 0 "#PWR027" H 13800 12850 50  0001 C CNN
 F 1 "+3V3" H 13815 13173 50  0000 C CNN
 F 2 "" H 13800 13000 50  0001 C CNN
 F 3 "" H 13800 13000 50  0001 C CNN
@@ -4819,10 +4752,10 @@ F 3 "" H 13800 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0132
+L power:GND #PWR028
 U 1 1 64ABCEC3
 P 13800 13300
-F 0 "#PWR0132" H 13800 13050 50  0001 C CNN
+F 0 "#PWR028" H 13800 13050 50  0001 C CNN
 F 1 "GND" H 13805 13127 50  0000 C CNN
 F 2 "" H 13800 13300 50  0001 C CNN
 F 3 "" H 13800 13300 50  0001 C CNN
@@ -4842,10 +4775,10 @@ SWD
 Wire Notes Line
 	12100 13950 12100 12450
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L Connector_Generic:Conn_01x04 J5
 U 1 1 64ABCECF
 P 12800 13100
-F 0 "J4" H 12880 13092 50  0000 L CNN
+F 0 "J5" H 12880 13092 50  0000 L CNN
 F 1 "Conn_01x04" H 12880 13001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 12800 13100 50  0001 C CNN
 F 3 "~" H 12800 13100 50  0001 C CNN
@@ -4853,10 +4786,10 @@ F 3 "~" H 12800 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0133
+L power:+3V3 #PWR023
 U 1 1 64ABCED5
 P 12500 13000
-F 0 "#PWR0133" H 12500 12850 50  0001 C CNN
+F 0 "#PWR023" H 12500 12850 50  0001 C CNN
 F 1 "+3V3" H 12515 13173 50  0000 C CNN
 F 2 "" H 12500 13000 50  0001 C CNN
 F 3 "" H 12500 13000 50  0001 C CNN
@@ -4864,10 +4797,10 @@ F 3 "" H 12500 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0134
+L power:GND #PWR024
 U 1 1 64ABCEDB
 P 12500 13300
-F 0 "#PWR0134" H 12500 13050 50  0001 C CNN
+F 0 "#PWR024" H 12500 13050 50  0001 C CNN
 F 1 "GND" H 12505 13127 50  0000 C CNN
 F 2 "" H 12500 13300 50  0001 C CNN
 F 3 "" H 12500 13300 50  0001 C CNN
@@ -4894,10 +4827,10 @@ Wire Wire Line
 Wire Wire Line
 	16600 12800 16600 12950
 $Comp
-L power:+3V3 #PWR0135
+L power:+3V3 #PWR035
 U 1 1 64ABCEEB
 P 16600 12800
-F 0 "#PWR0135" H 16600 12650 50  0001 C CNN
+F 0 "#PWR035" H 16600 12650 50  0001 C CNN
 F 1 "+3V3" H 16688 12837 50  0000 L CNN
 F 2 "" H 16600 12800 50  0001 C CNN
 F 3 "" H 16600 12800 50  0001 C CNN
@@ -4905,10 +4838,10 @@ F 3 "" H 16600 12800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0136
+L power:GND #PWR036
 U 1 1 64ABCEF1
 P 16600 13450
-F 0 "#PWR0136" H 16600 13200 50  0001 C CNN
+F 0 "#PWR036" H 16600 13200 50  0001 C CNN
 F 1 "GND" H 16605 13277 50  0000 C CNN
 F 2 "" H 16600 13450 50  0001 C CNN
 F 3 "" H 16600 13450 50  0001 C CNN
@@ -4921,10 +4854,10 @@ Connection ~ 16600 13350
 Text GLabel 15700 13150 2    50   Input ~ 0
 ~RST
 $Comp
-L Connector:TestPoint TP34
+L Connector:TestPoint TP36
 U 1 1 64ABCF06
 P 21200 13050
-F 0 "TP34" V 21154 13238 50  0000 L CNN
+F 0 "TP36" V 21154 13238 50  0000 L CNN
 F 1 "TestPoint" V 21245 13238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 21400 13050 50  0001 C CNN
 F 3 "~" H 21400 13050 50  0001 C CNN
@@ -4932,10 +4865,10 @@ F 3 "~" H 21400 13050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP35
+L Connector:TestPoint TP37
 U 1 1 64ABCF0F
 P 21200 13200
-F 0 "TP35" V 21154 13388 50  0000 L CNN
+F 0 "TP37" V 21154 13388 50  0000 L CNN
 F 1 "TestPoint" V 21245 13388 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 21400 13200 50  0001 C CNN
 F 3 "~" H 21400 13200 50  0001 C CNN
@@ -4959,10 +4892,10 @@ Wire Notes Line
 Text Notes 14400 3950 0    118  ~ 24
 Status LEDs
 $Comp
-L Device:LED_Small D68
+L Device:LED_Small D45
 U 1 1 65273587
 P 14500 4350
-F 0 "D68" V 14546 4280 50  0000 R CNN
+F 0 "D45" V 14546 4280 50  0000 R CNN
 F 1 "WHITE" V 14455 4280 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14500 4350 50  0001 C CNN
 F 3 "~" V 14500 4350 50  0001 C CNN
@@ -4970,10 +4903,10 @@ F 3 "~" V 14500 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R20
+L Device:R_Small_US R14
 U 1 1 6527358D
 P 14500 4550
-F 0 "R20" H 14568 4596 50  0000 L CNN
+F 0 "R14" H 14568 4596 50  0000 L CNN
 F 1 "1K" H 14568 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 14500 4550 50  0001 C CNN
 F 3 "~" H 14500 4550 50  0001 C CNN
@@ -4981,10 +4914,10 @@ F 3 "~" H 14500 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small D72
+L Device:LED_Small D51
 U 1 1 652D5AEF
 P 14900 4350
-F 0 "D72" V 14946 4280 50  0000 R CNN
+F 0 "D51" V 14946 4280 50  0000 R CNN
 F 1 "WHITE" V 14855 4280 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14900 4350 50  0001 C CNN
 F 3 "~" V 14900 4350 50  0001 C CNN
@@ -4992,10 +4925,10 @@ F 3 "~" V 14900 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R21
+L Device:R_Small_US R17
 U 1 1 652D5AF5
 P 14900 4550
-F 0 "R21" H 14968 4596 50  0000 L CNN
+F 0 "R17" H 14968 4596 50  0000 L CNN
 F 1 "1K" H 14968 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 14900 4550 50  0001 C CNN
 F 3 "~" H 14900 4550 50  0001 C CNN
@@ -5003,10 +4936,10 @@ F 3 "~" H 14900 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small D73
+L Device:LED_Small D55
 U 1 1 6533803D
 P 15300 4350
-F 0 "D73" V 15346 4280 50  0000 R CNN
+F 0 "D55" V 15346 4280 50  0000 R CNN
 F 1 "WHITE" V 15255 4280 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 15300 4350 50  0001 C CNN
 F 3 "~" V 15300 4350 50  0001 C CNN
@@ -5014,10 +4947,10 @@ F 3 "~" V 15300 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R23
+L Device:R_Small_US R18
 U 1 1 65338043
 P 15300 4550
-F 0 "R23" H 15368 4596 50  0000 L CNN
+F 0 "R18" H 15368 4596 50  0000 L CNN
 F 1 "1K" H 15368 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 15300 4550 50  0001 C CNN
 F 3 "~" H 15300 4550 50  0001 C CNN
@@ -5025,10 +4958,10 @@ F 3 "~" H 15300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0137
+L power:+3V3 #PWR031
 U 1 1 6558A238
 P 14500 4100
-F 0 "#PWR0137" H 14500 3950 50  0001 C CNN
+F 0 "#PWR031" H 14500 3950 50  0001 C CNN
 F 1 "+3V3" H 14588 4137 50  0000 L CNN
 F 2 "" H 14500 4100 50  0001 C CNN
 F 3 "" H 14500 4100 50  0001 C CNN
@@ -5084,10 +5017,10 @@ L_USB_D-
 Text GLabel 2150 4250 2    50   Input ~ 0
 L_USB_D+
 $Comp
-L Device:R_Small_US R3
+L Device:R_Small_US R1
 U 1 1 61A8C8AB
 P 2000 4250
-F 0 "R3" V 1795 4250 50  0000 C CNN
+F 0 "R1" V 1795 4250 50  0000 C CNN
 F 1 "22R" V 1886 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2000 4250 50  0001 C CNN
 F 3 "~" H 2000 4250 50  0001 C CNN
@@ -5095,10 +5028,10 @@ F 3 "~" H 2000 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R5
+L Device:R_Small_US R2
 U 1 1 61A8F08A
 P 2000 4350
-F 0 "R5" V 1887 4350 50  0000 C CNN
+F 0 "R2" V 1887 4350 50  0000 C CNN
 F 1 "22R" V 1796 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2000 4350 50  0001 C CNN
 F 3 "~" H 2000 4350 50  0001 C CNN
@@ -5111,8 +5044,6 @@ Wire Wire Line
 	2100 4250 2150 4250
 Connection ~ 4200 7700
 Connection ~ 4200 8200
-Connection ~ 19100 7700
-Connection ~ 19100 8200
 Text GLabel 6800 13150 2    50   Input ~ 0
 L_OPT2
 Text GLabel 6800 13050 2    50   Input ~ 0
@@ -5121,10 +5052,10 @@ Text Notes 9600 5000 0    50   ~ 0
 Not sure if tying reset together is needed.\nSolder jumper in case it's a bad idea.
 NoConn ~ 16850 4450
 $Comp
-L Connector:USB_B_Micro J3
+L Connector:USB_B_Micro J8
 U 1 1 62364EC3
 P 16550 4250
-F 0 "J3" H 16607 4717 50  0000 C CNN
+F 0 "J8" H 16607 4717 50  0000 C CNN
 F 1 "USB_B_Micro" H 16607 4626 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_HRO_U-F-M5SS-W-1" H 16700 4200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-U-F-M5SS-W-1_C145783.pdf" H 16700 4200 50  0001 C CNN
@@ -5132,10 +5063,10 @@ F 3 "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-U-F-M5SS-W-
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L power:GND #PWR034
 U 1 1 62364EBD
 P 16550 4700
-F 0 "#PWR0114" H 16550 4450 50  0001 C CNN
+F 0 "#PWR034" H 16550 4450 50  0001 C CNN
 F 1 "GND" H 16555 4527 50  0000 C CNN
 F 2 "" H 16550 4700 50  0001 C CNN
 F 3 "" H 16550 4700 50  0001 C CNN
@@ -5152,10 +5083,10 @@ Wire Notes Line
 Wire Notes Line
 	16300 4950 16300 3650
 $Comp
-L power:+5V #PWR0109
+L power:+5V #PWR06
 U 1 1 6BB41C00
 P 2700 3900
-F 0 "#PWR0109" H 2700 3750 50  0001 C CNN
+F 0 "#PWR06" H 2700 3750 50  0001 C CNN
 F 1 "+5V" H 2715 4073 50  0000 C CNN
 F 2 "" H 2700 3900 50  0001 C CNN
 F 3 "" H 2700 3900 50  0001 C CNN
@@ -5171,10 +5102,10 @@ Wire Wire Line
 Wire Wire Line
 	16850 4250 16900 4250
 $Comp
-L Device:R_Small_US R7
+L Device:R_Small_US R22
 U 1 1 62364F08
 P 17000 4350
-F 0 "R7" V 16887 4350 50  0000 C CNN
+F 0 "R22" V 16887 4350 50  0000 C CNN
 F 1 "22R" V 16796 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 17000 4350 50  0001 C CNN
 F 3 "~" H 17000 4350 50  0001 C CNN
@@ -5182,10 +5113,10 @@ F 3 "~" H 17000 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R6
+L Device:R_Small_US R21
 U 1 1 62364F02
 P 17000 4250
-F 0 "R6" V 16795 4250 50  0000 C CNN
+F 0 "R21" V 16795 4250 50  0000 C CNN
 F 1 "22R" V 16886 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 17000 4250 50  0001 C CNN
 F 3 "~" H 17000 4250 50  0001 C CNN
@@ -5223,10 +5154,10 @@ F 3 "~" H 10600 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DIN-5_180degree J2
+L Connector:DIN-5_180degree J4
 U 1 1 623DD4A2
 P 10400 4400
-F 0 "J2" H 10400 4125 50  0000 C CNN
+F 0 "J4" H 10400 4125 50  0000 C CNN
 F 1 "DIN-5_180degree" H 10400 4034 50  0000 C CNN
 F 2 "Connector_DIN:DIN5_180_CP-2350" H 10400 4400 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 10400 4400 50  0001 C CNN
@@ -5236,10 +5167,10 @@ $EndComp
 Wire Wire Line
 	10400 4100 10450 4100
 $Comp
-L Connector:DIN-5_180degree J7
+L Connector:DIN-5_180degree J6
 U 1 1 62DB9CB9
 P 12900 4400
-F 0 "J7" H 12900 4125 50  0000 C CNN
+F 0 "J6" H 12900 4125 50  0000 C CNN
 F 1 "DIN-5_180degree" H 12900 4034 50  0000 C CNN
 F 2 "Connector_DIN:DIN5_180_CP-2350" H 12900 4400 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 12900 4400 50  0001 C CNN
@@ -5251,10 +5182,10 @@ Text GLabel 13300 4100 2    50   Input ~ 0
 Wire Wire Line
 	12900 4100 13300 4100
 $Comp
-L Device:D_Schottky D74
+L Device:D_Schottky D1
 U 1 1 6772F94A
 P 2450 4050
-F 0 "D74" H 2450 3833 50  0000 C CNN
+F 0 "D1" H 2450 3833 50  0000 C CNN
 F 1 "B5819W" H 2450 3924 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 2450 4050 50  0001 C CNN
 F 3 "~" H 2450 4050 50  0001 C CNN
@@ -5268,10 +5199,10 @@ Wire Wire Line
 Wire Wire Line
 	17650 3900 17650 4050
 $Comp
-L Device:D_Schottky D75
+L Device:D_Schottky D66
 U 1 1 6A1F85DF
 P 17450 4050
-F 0 "D75" H 17450 3833 50  0000 C CNN
+F 0 "D66" H 17450 3833 50  0000 C CNN
 F 1 "B5819W" H 17450 3924 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 17450 4050 50  0001 C CNN
 F 3 "~" H 17450 4050 50  0001 C CNN
@@ -5281,10 +5212,10 @@ $EndComp
 Wire Wire Line
 	16850 4050 17050 4050
 $Comp
-L power:+5V #PWR0115
+L power:+5V #PWR038
 U 1 1 6A33093F
 P 17650 3900
-F 0 "#PWR0115" H 17650 3750 50  0001 C CNN
+F 0 "#PWR038" H 17650 3750 50  0001 C CNN
 F 1 "+5V" H 17665 4073 50  0000 C CNN
 F 2 "" H 17650 3900 50  0001 C CNN
 F 3 "" H 17650 3900 50  0001 C CNN
@@ -5315,10 +5246,10 @@ Connection ~ 2700 4050
 Wire Wire Line
 	2700 4050 2600 4050
 $Comp
-L Connector:TestPoint TP38
+L Connector:TestPoint TP22
 U 1 1 6ABDD452
 P 17750 4050
-F 0 "TP38" H 17692 4076 50  0000 R CNN
+F 0 "TP22" H 17692 4076 50  0000 R CNN
 F 1 "TestPoint" H 17692 4167 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 17950 4050 50  0001 C CNN
 F 3 "~" H 17950 4050 50  0001 C CNN
@@ -5331,10 +5262,10 @@ Wire Wire Line
 	2700 4050 2850 4050
 Connection ~ 2850 4050
 $Comp
-L Connector:TestPoint TP37
+L Connector:TestPoint TP1
 U 1 1 6ABDA1C2
 P 2850 4050
-F 0 "TP37" H 2792 4076 50  0000 R CNN
+F 0 "TP1" H 2792 4076 50  0000 R CNN
 F 1 "TestPoint" H 2792 4167 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3050 4050 50  0001 C CNN
 F 3 "~" H 3050 4050 50  0001 C CNN
@@ -5361,4 +5292,97 @@ NoConn ~ 20250 6750
 NoConn ~ 20250 6650
 Text Notes 9250 11650 1    50   ~ 0
 Break out encoder and mount on plate?
+Wire Wire Line
+	4200 6200 4200 7700
+Wire Wire Line
+	5700 6850 5700 7200
+Text GLabel 9750 10100 1    50   Input ~ 0
+L_COL8
+Wire Wire Line
+	3250 7850 3350 7850
+Text GLabel 3350 7850 2    50   Input ~ 0
+L_COL8
+Wire Wire Line
+	18300 7200 18300 7700
+Wire Wire Line
+	18300 7700 18300 8200
+Connection ~ 18300 7700
+Wire Wire Line
+	18300 8200 18300 8700
+Connection ~ 18300 8200
+$Comp
+L Diode:1N4148 D73
+U 1 1 6CB9CE2B
+P 18550 7700
+AR Path="/6CB9CE2B" Ref="D73"  Part="1" 
+AR Path="/61B9E042/6CB9CE2B" Ref="D?"  Part="1" 
+F 0 "D73" H 18550 7800 50  0000 C CNN
+F 1 "1N4148" H 18550 7600 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18550 7525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18550 7700 50  0001 C CNN
+	1    18550 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L kailh_hotplug_mx_plate:Kailh_Hotplug S68
+U 1 1 6CB9CE31
+P 18900 7800
+AR Path="/6CB9CE31" Ref="S68"  Part="1" 
+AR Path="/61B9E042/6CB9CE31" Ref="S?"  Part="1" 
+F 0 "S68" H 18900 8050 50  0000 C CNN
+F 1 "Kailh_Hotplug" H 18900 7750 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX_platemount" H 18950 8150 50  0001 C CNN
+F 3 "" H 18900 8050 50  0001 C CNN
+	1    18900 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D74
+U 1 1 6CC00849
+P 18550 8200
+AR Path="/6CC00849" Ref="D74"  Part="1" 
+AR Path="/61B9E042/6CC00849" Ref="D?"  Part="1" 
+F 0 "D74" H 18550 8300 50  0000 C CNN
+F 1 "1N4148" H 18550 8100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 18550 8025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 18550 8200 50  0001 C CNN
+	1    18550 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kailh_hotplug_mx_plate:Kailh_Hotplug S69
+U 1 1 6CC0084F
+P 18900 8300
+AR Path="/6CC0084F" Ref="S69"  Part="1" 
+AR Path="/61B9E042/6CC0084F" Ref="S?"  Part="1" 
+F 0 "S69" H 18900 8550 50  0000 C CNN
+F 1 "Kailh_Hotplug" H 18900 8250 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX_platemount" H 18950 8650 50  0001 C CNN
+F 3 "" H 18900 8550 50  0001 C CNN
+	1    18900 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18400 7700 18400 7500
+Wire Wire Line
+	18400 7500 17600 7500
+Connection ~ 17600 7500
+Wire Wire Line
+	17600 7500 17600 7350
+Wire Wire Line
+	18400 8200 18400 8000
+Wire Wire Line
+	18400 8000 17600 8000
+Connection ~ 17600 8000
+Wire Wire Line
+	17600 8000 17600 7850
+Wire Wire Line
+	19100 7200 19100 7700
+Connection ~ 19100 7200
+Wire Wire Line
+	19100 7700 19100 8200
+Connection ~ 19100 7700
+Wire Wire Line
+	19100 8200 19100 8700
+Connection ~ 19100 8200
 $EndSCHEMATC
