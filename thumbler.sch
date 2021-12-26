@@ -3618,9 +3618,7 @@ $EndComp
 Wire Wire Line
 	9750 10100 9750 10150
 Wire Notes Line
-	11200 11900 7550 11900
-Wire Notes Line
-	7550 9600 7550 11900
+	6500 9600 6500 11900
 Wire Notes Line
 	11200 5550 11200 11900
 Wire Wire Line
@@ -5385,4 +5383,46 @@ Connection ~ 19100 7700
 Wire Wire Line
 	19100 8200 19100 8700
 Connection ~ 19100 8200
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 6D7D2149
+P 6900 10950
+F 0 "J?" H 6818 10325 50  0000 C CNN
+F 1 "Conn_01x08" H 6818 10416 50  0000 C CNN
+F 2 "" H 6900 10950 50  0001 C CNN
+F 3 "~" H 6900 10950 50  0001 C CNN
+	1    6900 10950
+	-1   0    0    1   
+$EndComp
+Text GLabel 7100 10550 2    50   Input ~ 0
+L_ENC_A
+Text GLabel 7100 10650 2    50   Input ~ 0
+L_ENC_B
+Text GLabel 7100 10750 2    50   Input ~ 0
+L_ENC_BN
+Text GLabel 7100 10850 2    50   Input ~ 0
+L_ENC_DN
+Text GLabel 7100 11050 2    50   Input ~ 0
+L_ENC_UP
+Text GLabel 7100 11150 2    50   Input ~ 0
+L_ENC_LF
+Text GLabel 7100 10950 2    50   Input ~ 0
+L_ENC_RT
+$Comp
+L power:GND #PWR?
+U 1 1 6DC33371
+P 7150 11300
+F 0 "#PWR?" H 7150 11050 50  0001 C CNN
+F 1 "GND" H 7155 11127 50  0000 C CNN
+F 2 "" H 7150 11300 50  0001 C CNN
+F 3 "" H 7150 11300 50  0001 C CNN
+	1    7150 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 11250 7150 11250
+Wire Wire Line
+	7150 11250 7150 11300
+Wire Notes Line
+	11200 11900 6500 11900
 $EndSCHEMATC
